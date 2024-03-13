@@ -1,8 +1,8 @@
+import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
+import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-import katalon.truetest.TrueTestScripts
 
 'Initialize test session: Open browser and set view port'
 
@@ -32,29 +32,19 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/events?/
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_events/hyperlink_100_approved_test_notification_star'))
 
-"Step 4: Click on button 'Participation'"
+"Step 4: Click on sup"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_events/button_participation'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_events/sup_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/events/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_events/button_participation'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_events/sup_object'))
 
-"Step 5: Click on button 'Add New'"
+"Step 5: Take full page screenshot as checkpoint"
 
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_events/button_add_new'), 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/events/.*?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_events/button_add_new'))
-
-"Step 6: Take full page screenshot as checkpoint"
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Participation and Adding New Event at Page Events_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC18-Verify Events Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

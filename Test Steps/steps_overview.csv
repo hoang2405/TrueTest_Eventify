@@ -1,7 +1,194 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Participation and Adding New Event at Page Events,Navigate to the pageEvents and log in. Access the 100ApprovedTestNotificationStar and proceed to participation. Add a new event and verify the pageEvents.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+1,Verify Participation and Adding New at Event,Navigate to the home page and login. Access the event and perform actions like adding new participation and adding new information. Verify the pageProfile.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
+step 2: Login -> Navigate to page 'events/*'
+step 3: Click on image
+step 4: Click on link '+100\n\nParticipants\n\nApproved\n\ntest bug 229\n\nStart\n\nFri, Mar 01 | 03:00 PM\n\nEnd\n\nWed, Mar 20 | 08:00 PM\n\nabc'
+step 5: Click on button 'Participation'
+step 6: Click on button 'Add New'
+step 7: Click on input field
+step 8: Enter input value in input field
+step 9: Click on link
+step 10: Click on button
+step 11: Click on image
+step 12: Click on link 'Users' -> Navigate to page 'users'
+step 13: Click on header
+step 14: Click on div
+step 15: Click on image
+step 16: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 17: Take full page screenshot as checkpoint",High
+2,Verify Users Page at Event,Navigate to the home page and login. Access the event and navigate to the users page. Verify the pageUsers.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
+step 2: Login -> Navigate to page 'events/*'
+step 3: Click on image
+step 4: Click on link '+100\n\nParticipants\n\nApproved\n\ntest bug 229\n\nStart\n\nFri, Mar 01 | 03:00 PM\n\nEnd\n\nWed, Mar 20 | 08:00 PM\n\nabc'
+step 5: Click on button 'Participation'
+step 6: Click on button 'Add New'
+step 7: Click on input field
+step 8: Enter input value in input field
+step 9: Click on link
+step 10: Click on button
+step 11: Click on image
+step 12: Click on link 'Users' -> Navigate to page 'users'
+step 13: Click on div
+step 14: Take full page screenshot as checkpoint",High
+3,Verify Events Participants Full View,Navigate to the events page and create an event. Perform various actions and verify the events participants full view.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'Create Event \u2192' -> Navigate to page 'events/add'
+step 4: Click on svg
+step 5: Click on svg
+step 6: Click on button
+step 7: Click on button
+step 8: Click on button
+step 9: Click on button
+step 10: Click on button
+step 11: Click on button
+step 12: Click on button
+step 13: Click on button
+step 14: Click on button
+step 15: Click on button
+step 16: Click on button
+step 17: Click on button
+step 18: Click on svg
+step 19: Click on svg
+step 20: Click on div
+step 21: Click on button 'Next'
+step 22: Click on svg
+step 23: Click on button 'Submit' -> Navigate to page 'events/*'
+step 24: Click on button 'Publish'
+step 25: Click on button 'Publish\nEdit\nDelete\nMake copy'
+step 26: Click on button 'Participation'
+step 27: Click on svg 'Flat' -> Navigate to page 'events/*/participantsFullView'
+step 28: Click on button
+step 29: Click on div
+step 30: Click on button 'OK'
+step 31: Click on button 'Add New'
+step 32: Click on input field
+step 33: Enter input value in input field
+step 34: Click on link
+step 35: Take full page screenshot as checkpoint",High
+4,Verify Profile Preference Events History,Navigate to the events page and access the profile and preference sections. Verify the events history in the profile preference.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nLong Location\n\nStart\n\nThu, Mar 14 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nLong Location Long Location Long Location Long Location Long Location Long Location Long Location' -> Navigate to page 'events/*'
+step 4: Click on link 'Users' -> Navigate to page 'users'
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/events-history'
+step 8: Click on button
+step 9: Click on span
+step 10: Click on header
+step 11: Click on svg
+step 12: Click on list item
+step 13: Take full page screenshot as checkpoint",High
+5,Verify Profile Information,Navigate to the events page and access the profile and preference sections. Verify the profile information.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nLong Location\n\nStart\n\nThu, Mar 14 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nLong Location Long Location Long Location Long Location Long Location Long Location Long Location' -> Navigate to page 'events/*'
+step 4: Click on link 'Users' -> Navigate to page 'users'
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/events-history'
+step 8: Click on p  -> Navigate to page 'profile/*/information'
+step 9: Take full page screenshot as checkpoint",High
+6,Verify Events Edit,Navigate to the events page and access the event. Perform editing actions and verify the events edit page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on link '+100\n\nHost\n\nPending\n\nDelete Admin\n\nStart\n\nWed, Feb 28 | 12:00 AM\n\nEnd\n\nThu, Feb 29 | 11:59 PM\n\nDelete Admin' -> Navigate to page 'events/*'
+step 5: Click on button 'Publish'
+step 6: Click on button 'Publish\nEdit\nDelete\nMake copy' -> Navigate to page 'events/*/edit'
+step 7: Click on svg
+step 8: Click on svg
+step 9: Take full page screenshot as checkpoint",High
+7,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nLong Location\n\nStart\n\nThu, Mar 14 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nLong Location Long Location Long Location Long Location Long Location Long Location Long Location' -> Navigate to page 'events/*'
+step 4: Click on link 'Users' -> Navigate to page 'users'
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/events-history'
+step 8: Click on svg
+step 9: Click on list item  -> Navigate to page 'events/*'
+step 10: Take full page screenshot as checkpoint",High
+8,Verify Profile Preference Notification,Navigate to the events page and access the profile and preference sections. Verify the notification in the profile preference.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on link '+100\n\nParticipants\n\nApproved\n\nABC\n\nStart\n\nWed, Mar 13 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nabc' -> Navigate to page 'events/*'
+step 5: Click on button 'Approved'
+step 6: Click on link 'Delete'
+step 7: Click on button 'Confirm' -> Navigate to page 'events'
+step 8: Click on image
+step 9: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 10: Click on p  -> Navigate to page 'profile/*/preference'
+step 11: Click on span  -> Navigate to page 'profile/*/preference/profile'
+step 12: Click on span  -> Navigate to page 'profile/*/preference/notification'
+step 13: Take full page screenshot as checkpoint",High
+9,Verify Rewards Page,Navigate to the events page and access the profile and preference sections. Verify the rewards page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nLong Location\n\nStart\n\nThu, Mar 14 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nLong Location Long Location Long Location Long Location Long Location Long Location Long Location' -> Navigate to page 'events/*'
+step 4: Click on link 'Users' -> Navigate to page 'users'
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on link 'Rewards' -> Navigate to page 'rewards'
+step 8: Take full page screenshot as checkpoint",High
+10,Verify Events Participants Full View,Navigate to the events page and access the event. Verify the events participants full view.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on link '+100\n\nHost\n\nApproved\n\nCopied of Test Delete Approved 04\n\nStart\n\nThu, Mar 07 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nTest Delete Approved' -> Navigate to page 'events/*'
+step 5: Click on button 'Participation'
+step 6: Click on svg 'Flat' -> Navigate to page 'events/*/participantsFullView'
+step 7: Click on button 'All (1)'
+step 8: Take full page screenshot as checkpoint",High
+11,Verify Profile Preference Profile,Navigate to the events page and access the profile and preference sections. Verify the profile in the profile preference.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on div
+step 4: Click on image
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/profile'
+step 8: Take full page screenshot as checkpoint",High
+12,Verify Events Edit,Navigate to the events page and access the event. Perform preview and verify the events edit page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nLong Location\n\nStart\n\nThu, Mar 14 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nLong Location Long Location Long Location Long Location Long Location Long Location Long Location' -> Navigate to page 'events/*'
+step 4: Click on svg 'Flat' -> Navigate to page 'events/*/edit'
+step 5: Click on button 'Paragraph'
+step 6: Click on header
+step 7: Click on button 'Preview'
+step 8: Take full page screenshot as checkpoint",High
+13,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on button 'All'
+step 5: Click on input field
+step 6: Click on input field
+step 7: Click on svg
+step 8: Take full page screenshot as checkpoint",High
+14,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on link '+100\n\nHost\n\nApproved\n\nCopied of Test Delete Approved 04\n\nStart\n\nThu, Mar 07 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nTest Delete Approved' -> Navigate to page 'events/*'
+step 5: Click on button 'Participation'
+step 6: Click on button
+step 7: Click on div
+step 8: Take full page screenshot as checkpoint",Medium
+15,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button
+step 4: Click on button 'All'
+step 5: Click on label
+step 6: Click on input field
+step 7: Take full page screenshot as checkpoint",Medium
+16,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link
+step 4: Click on button 'My Events \u2192'
+step 5: Take full page screenshot as checkpoint",Medium
+17,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'All'
+step 4: Take full page screenshot as checkpoint",Low
+18,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
 step 3: Click on link '+100\n\nApproved\n\ntest notification.\n\nStart\n\nThu, Mar 07 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nhcm' -> Navigate to page 'events/*'
-step 4: Click on button 'Participation'
-step 5: Click on button 'Add New'
-step 6: Take full page screenshot as checkpoint",Trivial
+step 4: Click on sup
+step 5: Take full page screenshot as checkpoint",Low
+19,Verify Events Page,Navigate to the events page and access the event. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on svg
+step 4: Take full page screenshot as checkpoint",Trivial
