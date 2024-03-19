@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on button 'My Events \\u2192'",
+        "step 4: Click on button 'All'",
+        "step 5: Click on link '+100\\n\\nHost\\n\\nPending\\n\\nDelete Admin\\n\\nStart\\n\\nWed, Feb 28 | 12:00 AM\\n\\nEnd\\n\\nThu, Feb 29 | 11:59 PM\\n\\nDelete Admin' -> Navigate to page 'events/*'",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
