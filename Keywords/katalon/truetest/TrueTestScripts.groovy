@@ -30,11 +30,12 @@ public class TrueTestScripts {
             
             WebUI.navigateToUrl('https://eventify-qa.kms-technology.com/')
             
-            WebUI.setText(findTestObject('Object Repository/Page_KMS_Home_SSO_Login/input_Login_Username'), 'hoangchu')
+            WebUI.setText(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/input_GOOD EVENING_Username'), 'dunghoangnguyen')
             
-            WebUI.setEncryptedText(findTestObject('Object Repository/Page_KMS_Home_SSO_Login/input_Login_Password'), 'kXTA48FBbRcXzlAhD0zB8Q==')
+            WebUI.setEncryptedText(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/input_GOOD EVENING_Password'),
+            'kXTA48FBbRcXzlAhD0zB8Q==')
             
-            WebUI.click(findTestObject('Object Repository/Page_KMS_Home_SSO_Login/span_Login_HOME_SSO'))
+            WebUI.click(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/span_LOGIN HOME SSO'))
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {
                 KeywordUtil.logInfo(e.getMessage())

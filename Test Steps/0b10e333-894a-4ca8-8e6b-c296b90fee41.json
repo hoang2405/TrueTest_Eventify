@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on link '+100\\n\\nHost\\n\\nHappy Day in December\\n\\nN/A | N/A\\n\\nKMS Technology 2 Tan Vien\\nAnh Nhat Van Duong\\n\\nClosed' -> Navigate to page 'events/*'",
+        "step 4: Click on div",
+        "step 5: Click on svg",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
