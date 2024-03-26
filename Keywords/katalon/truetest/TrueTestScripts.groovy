@@ -30,9 +30,9 @@ public class TrueTestScripts {
             
             WebUI.navigateToUrl('https://eventify-qa.kms-technology.com/')
             
-            WebUI.setText(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/input_GOOD EVENING_Username'), 'dunghoangnguyen')
+            WebUI.setText(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/input_Login_Username'), 'dunghoangnguyen')
             
-            WebUI.setEncryptedText(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/input_GOOD EVENING_Password'),
+            WebUI.setEncryptedText(findTestObject('Object Repository/New Folders/Page_KMS Home SSO - LOGIN/input_Login_Password'),
             'kXTA48FBbRcXzlAhD0zB8Q==')
             
             WebUI.click(findTestObject('Object Repository/Page_KMS_Home_SSO_Login/span_Login_HOME_SSO'))
