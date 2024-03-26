@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-10,Verify Events History in Profile Preferences,Navigate to the events page and log in. Access the profile preferences and view the events history. Verify the displayed events history.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+14,Verify Events History in Profile Preferences,Navigate to the events page and login. Access the profile preferences and view the events history. Verify the events history in the profile preferences.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
 step 3: Click on svg
 step 4: Click on div
@@ -11,34 +11,7 @@ step 9: Click on svg
 step 10: Click on span
 step 11: Click on button
 step 12: Take full page screenshot as checkpoint",High
-11,Verify Events History in Profile Preferences,Navigate to the events page and log in. Access the profile preferences and view the events history. Verify the displayed events history.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on sup
-step 4: Click on image
-step 5: Click on image
-step 6: Click on link 'Profile' -> Navigate to page 'profile/*'
-step 7: Click on p  -> Navigate to page 'profile/*/preference'
-step 8: Click on span  -> Navigate to page 'profile/*/preference/events-history'
-step 9: Click on span
-step 10: Take full page screenshot as checkpoint",High
-4,Verify Approved Badminton Random Tournament Events,Navigate to the events page and log in. Access the approved badminton random tournament event and verify the details.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on link '+100\n\nPL - KMS Meeting 03251126\n\nSun, March 31 | 10:00 AM\n\n2 Tan Vien\nPhong Hai Le' -> Navigate to page 'events/*'
-step 4: Click on link  -> Navigate to page 'events'
-step 5: Click on link '+100\n\nApproved\n\nBadminton random tournament\n\nSat, March 23 | 10:00 AM\n\nHCMC\nThy Thi Anh Phung' -> Navigate to page 'events/*'
-step 6: Click on button 'Approved'
-step 7: Click on button 'Approved\nReject\nDelete\nRegister Now\nMake copy'
-step 8: Take full page screenshot as checkpoint",High
-12,Verify Events History in Profile Preferences,Navigate to the events page and log in. Access the profile preferences and view the events history. Verify the displayed events history.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on link 'qead1\n\nView more \u2192' -> Navigate to page 'events/*'
-step 4: Click on image
-step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
-step 6: Click on p  -> Navigate to page 'profile/*/preference'
-step 7: Click on span  -> Navigate to page 'profile/*/preference/profile'
-step 8: Click on span  -> Navigate to page 'profile/*/preference/events-history'
-step 9: Take full page screenshot as checkpoint",High
-5,Verify Event Creation and Rejection,Navigate to the events creation page and log in. Create an event and proceed with rejection. Verify the event status.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events/add
+4,Verify Event Submission and Publishing,Navigate to the events addition page and login. Input the event details and proceed to submit and publish the event. Verify the published event.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events/add
 step 2: Login
 step 3: Click on input field 'title'
 step 4: Enter input value in input field 'title'
@@ -46,77 +19,130 @@ step 5: Click on div
 step 6: Click on button 'Next'
 step 7: Click on button 'Skip'
 step 8: Click on button 'Submit' -> Navigate to page 'events/*'
-step 9: Click on svg 'Flat'
+step 9: Click on button 'Publish'
 step 10: Click on link 'Reject'
 step 11: Click on button 'Reject'
 step 12: Click on button 'Reject\u2800'
 step 13: Click on link 'Delete'
 step 14: Take full page screenshot as checkpoint",High
-6,Verify Event Creation and Submission,Navigate to the events page and log in. Create an event with specified details and submit. Verify the event submission.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+15,Verify Events History in Profile Preferences,Navigate to the events page and login. Access the profile preferences and view the events history. Verify the events history in the profile preferences.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
-step 3: Click on button 'Create Event \u2192' -> Navigate to page 'events/add'
-step 4: Click on input field 'title'
-step 5: Enter input value in input field 'title'
-step 6: Click on input field 'location'
-step 7: Enter input value in input field 'location'
-step 8: Click on button 'System Font'
-step 9: Click on input field
-step 10: Click on svg
-step 11: Click on input field 'rc select 0'
-step 12: Enter input value in input field 'rc select 0'
-step 13: Click on span
-step 14: Click on input field 'rc select 1'
-step 15: Click on div
-step 16: Click on input field 'rc select 2'
-step 17: Click on div
-step 18: Click on button 'Next'
-step 19: Click on input field 'startDate'
-step 20: Click on td
-step 21: Click on input field 'happenDate'
-step 22: Click on td
-step 23: Click on input field 'endDate'
-step 24: Click on div
-step 25: Click on button 'Next'
-step 26: Click on button 'Skip'
-step 27: Click on button 'Submit' -> Navigate to page 'events/*'
-step 28: Take full page screenshot as checkpoint",High
-1,Verify Events in Profile,Navigate to the events page and log in. Access the profile and view the events. Verify the displayed events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 3: Click on link 'qead1\n\nView more \u2192' -> Navigate to page 'events/*'
+step 4: Click on image
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/events-history'
+step 8: Take full page screenshot as checkpoint",High
+19,Verify Users Page Navigation,Navigate to the home page and login. Access the users page and verify the displayed users.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
+step 2: Login -> Navigate to page 'events/*'
+step 3: Click on div
+step 4: Click on image
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on link 'Users' -> Navigate to page 'users'
+step 7: Click on div
+step 8: Take full page screenshot as checkpoint",High
+16,Verify Events History in Profile Preferences,Navigate to the events page and login. Access the profile preferences and view the events history. Verify the events history in the profile preferences.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
 step 3: Click on image
-step 4: Click on link 'Profile' -> Navigate to page 'profile/*'
-step 5: Click on link 'Events' -> Navigate to page 'events'
-step 6: Take full page screenshot as checkpoint",High
-7,Verify Participation in Relay Sparkle Box DIY Match,Navigate to the events page and log in. Access the relay sparkle box DIY match and verify the participation.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 4: Click on image
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/events-history'
+step 8: Click on svg
+step 9: Take full page screenshot as checkpoint",High
+5,Verify Event Management and Rejection,Navigate to the events page from the home page and login. Manage and reject events. Verify the rejected events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
+step 2: Login -> Navigate to page 'events/*'
+step 3: Click on button 'Manage'
+step 4: Click on button 'Manage\nEdit\nNotify\nNotify via mail\nDelete\nReject\nMake copy'
+step 5: Click on button 'Reject'
+step 6: Click on sup
+step 7: Take full page screenshot as checkpoint",High
+17,Verify Events History in Profile Preferences,Navigate to the events page and login. Access the profile preferences and view the events history. Verify the events history in the profile preferences.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192' -> Navigate to page 'profile/*/preference/events-history'
+step 4: Click on span
+step 5: Take full page screenshot as checkpoint",High
+6,Verify Event Participation,Navigate to the events page and login. Participate in an event and verify the participation.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
 step 3: Click on link '+100\n\n\U0001f419 RELAY - Sparkle Box | DIY Matchbox Fundraiser \u2728\n\nN/A | N/A\n\nCoffee Lounge, Tan Vien Office\nQuyen Vinh Chung\n\nClosed' -> Navigate to page 'events/*'
 step 4: Click on button 'Participation'
 step 5: Click on svg
-step 6: Take full page screenshot as checkpoint",Medium
-13,Verify Events Creation Page,Navigate to the events page and log in. Access the events creation page and verify the page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 6: Take full page screenshot as checkpoint",High
+18,Verify Events History in Profile Preferences,Navigate to the events page and login. Access the profile preferences and view the events history. Verify the events history in the profile preferences.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
-step 3: Click on button 'Create Event \u2192' -> Navigate to page 'events/add'
+step 3: Click on image
+step 4: Click on image
+step 5: Click on link 'Profile' -> Navigate to page 'profile/*'
+step 6: Click on p  -> Navigate to page 'profile/*/preference'
+step 7: Click on span  -> Navigate to page 'profile/*/preference/events-history'
+step 8: Click on button 'All (265)'
+step 9: Take full page screenshot as checkpoint",High
+12,Verify Events Addition,Navigate to the events page and login. Add a new event and verify the addition.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'Administrative \u2192' -> Navigate to page 'events/add'
 step 4: Click on input field 'title'
 step 5: Enter input value in input field 'title'
 step 6: Click on div
 step 7: Click on div
-step 8: Take full page screenshot as checkpoint",Medium
-2,Verify Events in Users Page,Navigate to the events page and log in. Access the users page and view the events. Verify the displayed events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 8: Take full page screenshot as checkpoint",High
+7,Verify Event Approval,Navigate to the events page and login. Approve an event and verify the approval.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
-step 3: Click on link 'Users' -> Navigate to page 'users'
-step 4: Click on link 'Events' -> Navigate to page 'events'
-step 5: Take full page screenshot as checkpoint",Medium
-8,Verify Host Happy Day in December Event,Navigate to the events page and log in. Access the host happy day in December event and verify the details.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 3: Click on link '+100\n\nPL - KMS Meeting Mar 23\n\nN/A | N/A\n\n2 Tan Vien\nPhong Hai Le' -> Navigate to page 'events/*'
+step 4: Click on button 'Approved'
+step 5: Click on button 'Approved\nEdit\nNotify\nNotify via mail\nDelete\nReject\nRegister Now\nMake copy'
+step 6: Take full page screenshot as checkpoint",High
+8,Verify Event Participation,Navigate to the events page and login. Participate in an event and verify the participation.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nPL - KMS Meeting Mar 23\n\nStart\n\nSat, Mar 23 | 10:00 AM\n\nEnd\n\nSun, Mar 24 | 05:00 PM\n\n2 Tan Vien' -> Navigate to page 'events/*'
+step 4: Click on button 'Participation'
+step 5: Click on button
+step 6: Click on div
+step 7: Take full page screenshot as checkpoint",Medium
+9,Verify Event Access and Navigation,Navigate to the events page and login. Access and navigate through an event. Verify the event access.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
 step 3: Click on link '+100\n\nHost\n\nHappy Day in December\n\nN/A | N/A\n\nKMS Technology 2 Tan Vien\nAnh Nhat Van Duong\n\nClosed' -> Navigate to page 'events/*'
 step 4: Click on div
 step 5: Click on svg
-step 6: Take full page screenshot as checkpoint",Low
-9,Verify Participation in Events,Navigate to the home page and log in. Access the events and proceed with participation. Verify the participation in events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
-step 2: Login -> Navigate to page 'events/*'
-step 3: Click on button 'Participation'
-step 4: Click on button
-step 5: Take full page screenshot as checkpoint",Trivial
-3,Verify Events,Navigate to the events page and log in. Access the events and verify the displayed events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 6: Take full page screenshot as checkpoint",Medium
+20,Verify Users Page Navigation,Navigate to the events page and login. Access the users page and verify the displayed users.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link 'Users' -> Navigate to page 'users'
+step 4: Click on div
+step 5: Take full page screenshot as checkpoint",Medium
+1,Verify Events Access,Navigate to the events page and login. Access and view the events. Verify the event access.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 step 2: Login
 step 3: Click on link
-step 4: Take full page screenshot as checkpoint",Trivial
+step 4: Click on svg
+step 5: Take full page screenshot as checkpoint",Medium
+13,Verify Events Addition,Navigate to the events page and login. Add a new event and verify the addition.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'Create Event \u2192' -> Navigate to page 'events/add'
+step 4: Click on svg
+step 5: Take full page screenshot as checkpoint",Medium
+10,Verify Event Participation and Addition,Navigate to the events page and login. Participate in an event and add a new event. Verify the event participation and addition.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on link '+100\n\nApproved\n\nLong Location\n\nStart\n\nThu, Mar 14 | 12:00 AM\n\nEnd\n\nSat, Mar 16 | 11:59 PM\n\nLong Location Long Location Long Location Long Location Long Location Long Location Long Location' -> Navigate to page 'events/*'
+step 4: Click on button 'Participation'
+step 5: Click on button 'Add New'
+step 6: Take full page screenshot as checkpoint",Medium
+2,Verify Events Navigation and Interaction,Navigate to the home page and login. Access and interact with events. Verify the events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on button 'All'
+step 5: Click on span
+step 6: Click on input field
+step 7: Click on span
+step 8: Click on input field
+step 9: Take full page screenshot as checkpoint",Medium
+3,Verify Event Participation and Navigation,Navigate to the home page and login. Participate in an event and navigate through the events. Verify the event participation and navigation.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
+step 2: Login -> Navigate to page 'events/*'
+step 3: Click on button 'Participation'
+step 4: Click on link  -> Navigate to page 'events'
+step 5: Take full page screenshot as checkpoint",Low
+11,Verify Event Access and Interaction,Navigate to the events page and login. Access and interact with events. Verify the events.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+step 2: Login
+step 3: Click on button 'My Events \u2192'
+step 4: Click on input field
+step 5: Enter input value in input field
+step 6: Click on link '+100\n\nPending\n\nSE-262: Can I delete now\n\nStart\n\nWed, Mar 20 | 12:00 AM\n\nEnd\n\nFri, Mar 22 | 11:59 PM\n\nSE-262: Can I delete now' -> Navigate to page 'events/*'
+step 7: Take full page screenshot as checkpoint",Trivial
