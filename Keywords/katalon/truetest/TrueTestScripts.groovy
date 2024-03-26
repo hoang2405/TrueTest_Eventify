@@ -30,7 +30,7 @@ public class TrueTestScripts {
             
             WebUI.navigateToUrl('https://stg-homev2.kms-technology.com/')
 
-            WebUI.setText(findTestObject('Object Repository/Page_KMS Home SSO - LOGIN/input_GOOD MORNING_Username'), 'hoangchu')
+            WebUI.setText(findTestObject('Object Repository/Page_KMS Home SSO - LOGIN/Page_KMS Home SSO - LOGIN/input_GOOD MORNING_Username'), 'hoangchu')
 
             WebUI.setEncryptedText(findTestObject('Object Repository/Page_KMS Home SSO - LOGIN/input_GOOD MORNING_Password'), 'kXTA48FBbRcXzlAhD0zB8Q==')
 
