@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "092BE0BF39E6CEDA721CCAADB1F435AD",
+  "keywordFileContentHash": "6399772E51F685CCCB11F5B13FBC7C87",
   "keywordClasses": [
     {
       "name": "katalon.truetest.TrueTestScripts",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

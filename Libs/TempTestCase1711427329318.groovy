@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\hoangchu\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AI-Generated\\TC3-Verify Events\\20240326_111141\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\hoangchu\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AI-Generated\\TC3-Verify Event Participation and Navigation\\20240326_112849\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/AI-Generated/TC3-Verify Events', new TestCaseBinding('Test Cases/AI-Generated/TC3-Verify Events',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/AI-Generated/TC3-Verify Event Participation and Navigation', new TestCaseBinding('Test Cases/AI-Generated/TC3-Verify Event Participation and Navigation',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
