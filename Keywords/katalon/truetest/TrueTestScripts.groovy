@@ -32,9 +32,9 @@ public class TrueTestScripts {
             WebUI.setText(findTestObject('Object Repository/Page_KMS Home SSO - LOGIN/input_GOOD MORNING_Username'), 'hoangchu')
             WebUI.setEncryptedText(findTestObject('Object Repository/Page_KMS Home SSO - LOGIN/input_GOOD MORNING_Password'), 'kXTA48FBbRcXzlAhD0zB8Q==')
             WebUI.click(findTestObject('Object Repository/Page_KMS Home SSO - LOGIN/span_LOGIN HOME SSO'))
-
+            
             WebUI.waitForPageLoad(5)
-
+            
             WebUI.navigateToUrl('https://eventify-qa.kms-technology.com/')
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {
