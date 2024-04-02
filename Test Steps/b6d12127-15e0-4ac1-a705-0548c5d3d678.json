@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Click on link 'Profile' -> Navigate to page 'profile/*'",
+        "step 3: Click on link 'Users' -> Navigate to page 'users'",
+        "step 4: Click on link 'Events' -> Navigate to page 'events'",
+        "step 5: Click on div",
+        "step 6: Click on link '+100\\n\\nClosing soon 2\\n\\nN/A | N/A\\n\\nTan Vien\\nTruong Huy Phan\\n\\nClosed'",
+        "step 7: Click on link 'Rewards' -> Navigate to page 'rewards'",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}
