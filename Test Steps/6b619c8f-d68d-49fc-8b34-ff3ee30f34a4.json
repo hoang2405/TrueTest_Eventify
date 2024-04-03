@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Click on section",
+        "step 3: Click on image",
+        "step 4: Click on span  -> Navigate to page 'profile/*/events-history'",
+        "step 5: Click on svg",
+        "step 6: Click on link  -> Navigate to page 'events/*'",
+        "step 7: Click on button 'Drafting'",
+        "step 8: Click on link 'Resume' -> Navigate to page 'events/drafts/*'",
+        "step 9: Click on svg",
+        "step 10: Click on button 'Save as draft' -> Navigate to page 'events/*'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
