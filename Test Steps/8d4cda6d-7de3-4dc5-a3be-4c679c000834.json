@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://eventify-qa.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on input field",
+        "step 4: Enter input value in input field",
+        "step 5: Click on link '+300Approved123 DraftWed, April 10 | 10:00 AM123 DraftThy Thi Anh Phung' -> Navigate to page 'events/*'",
+        "step 6: Click on button 'Participation'",
+        "step 7: Click on button 'Checkin'",
+        "step 8: Click on button 'Participation'",
+        "step 9: Click on button 'Checkin'",
+        "step 10: Click on button 'Participation'",
+        "step 11: Click on svg",
+        "step 12: Click on div",
+        "step 13: Click on svg 'Flat' -> Navigate to page 'events/*/participantsFullView'",
+        "step 14: Click on link '123 Draft'",
+        "step 15: Click on link '123 Draft' -> Navigate to page 'events/*'",
+        "step 16: Click on button 'Checkin' -> Navigate to page 'events/*/participantsFullView'",
+        "step 17: Click on link '123 Draft'",
+        "step 18: Click on link '123 Draft' -> Navigate to page 'events/*'",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
