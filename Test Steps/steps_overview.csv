@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process at Page Events,"Navigate to the page events and log in. Perform a series of actions including clicking buttons, inputting data, and verifying the page. Ensure that the page events are functioning correctly.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+1,Verify Successful Checkout Process on Events Page,"Navigate to the events page and log in. Add an item to the cart, fill in the required details, and complete the checkout process. Verify that the checkout is successful.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'My Events →'
 Step 4: Click on input field
@@ -15,9 +15,9 @@ Step 13: Enter input value in input field
 Step 14: Click on div
 Step 15: Take full page screenshot as checkpoint
 ",High
-2,Verify Creation and Approval of Events at Page Events Add,"Access the page home and log in. Perform various actions such as clicking buttons, inputting details, and verifying the page. Confirm that the events are created and approved successfully.","Step 1: Navigate to https://eventify-qa.kms-technology.com/
+2,Verify Event Creation and Viewing on Home Page,Navigate to the home page and log in. View and create an event on the events page. Proceed with the event creation process and verify the event addition.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/
 Step 2: Login
-Step 3: Click view more, approved, copied, create event, and input details
+Step 3: View and create event on events page
 	- Step 1: Click on link 'PL - KMS Meeting 03251126View more →' -> Navigate to page 'events/*'
 	- Step 2: Click on link  -> Navigate to page 'events'
 	- Step 3: Click on link '+100ApprovedCopied of VA test ticket timeline #206Sat, April 06 | 10:00 AMHCMCAnh Nhat Van Duong' -> Navigate to page 'events/*'
@@ -36,7 +36,7 @@ Step 4: Click on div
 Step 5: Click on button 'Next'
 Step 6: Take full page screenshot as checkpoint
 ",High
-8,Verify Registration and Check in Process at Page Events,Navigate to the page events and log in. Interact with different elements such as buttons and hyperlinks to register and check-in for an event. Verify the registration and check-in process.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+9,Verify Event Registration and Check in on Events Page,Navigate to the events page and log in. Register for an event and proceed to check-in. Perform multiple interactions on the event page and verify the event details.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on input field
 Step 4: Enter input value in input field
@@ -55,7 +55,7 @@ Step 16: Click on button 'Cancel Registration'
 Step 17: Click on button 'Confirm'
 Step 18: Take full page screenshot as checkpoint
 ",High
-9,Verify Event History and Profile at Page Events,Access the page events and log in. Navigate through different sections to view event history and profile details. Verify the displayed information on the page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+10,Verify Event Listing and Navigation on Events Page,Navigate to the events page and log in. Access the list of events and navigate through various sections. View event details and verify the event listing.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'My Events →'
 Step 4: Click on div
@@ -71,7 +71,7 @@ Step 13: Click on header
 Step 14: Click on link  -> Navigate to page 'events/*'
 Step 15: Take full page screenshot as checkpoint
 ",High
-10,Verify Participation and Check in Process at Page Events,Navigate to the page events and log in. Interact with various elements to participate and check-in for an event. Verify the participation and check-in process for the event.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+11,Verify Event Participation and Check in Process,Navigate to the events page and log in. Participate in an event and proceed with the check-in process. Perform multiple check-ins and interactions on the event page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on input field
 Step 4: Enter input value in input field
@@ -91,7 +91,7 @@ Step 17: Click on link '123 Draft'
 Step 18: Click on link '123 Draft' -> Navigate to page 'events/*'
 Step 19: Take full page screenshot as checkpoint
 ",High
-11,Verify Event Drafting and Submission at Page Events Add,"Navigate to the page events and log in. Perform multiple actions including creating drafts, editing, submitting, and deleting events. Verify the drafting and submission process.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+12,Verify Event Creation and Management Workflow,"Navigate to the events page and log in. Create an event and manage the event details. Perform various actions such as saving drafts, publishing, and checking in. Verify the event creation and management workflow.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 4: Click on input field
@@ -99,7 +99,7 @@ Step 5: Click on button 'Save as draft' -> Navigate to page 'events/*'
 Step 6: Click on link 'Events' -> Navigate to page 'events'
 Step 7: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 8: Click on input field  -> Navigate to page ''
-Step 9: Click submit, publish, approve, checkin, finish and input details
+Step 9: Click objects to fill checkout form and complete
 	- Step 1: Click on div
 	- Step 2: Click on button 'Submit' -> Navigate to page 'events/*'
 	- Step 3: Click on button 'Publish'
@@ -124,7 +124,7 @@ Step 9: Click submit, publish, approve, checkin, finish and input details
 	- Step 22: Click on div
 	- Step 23: Click on p
 	- Step 24: Click on input field 'submissionEndDate'
-Step 10: Click submit, timeline, manage, edit, notify, delete and input details
+Step 10: Submit, publish, checkin, and manage events
 	- Step 1: Click on div
 	- Step 2: Click on svg
 	- Step 3: Click on svg
@@ -165,7 +165,7 @@ Step 10: Click submit, timeline, manage, edit, notify, delete and input details
 	- Step 38: Click on div
 	- Step 39: Click on input field 'endDate'
 	- Step 40: Click on div
-Step 11: Click create event and input details
+Step 11: Open events page and create event
 	- Step 1: Click on button 'Back' -> Navigate to page 'events/*'
 	- Step 2: Click on button 'Timeline'
 	- Step 3: Click on div
@@ -174,7 +174,7 @@ Step 11: Click create event and input details
 	- Step 6: Click on input field
 Step 12: Click on button 'Save as draft'
 Step 13: Click on input field  -> Navigate to page ''
-Step 14: Click discard, create event and input details
+Step 14: Discard and create event on events page
 	- Step 1: Click on link 'Users'
 	- Step 2: Click on button 'Discard' -> Navigate to page 'users'
 	- Step 3: Click on link  -> Navigate to page 'events'
@@ -186,19 +186,19 @@ Step 17: Click on input field
 Step 18: Click on link 'Users'
 Step 19: Click on button 'Continue editing'
 Step 20: Click on input field  -> Navigate to page ''
-Step 21: Click discard, create event and input details
+Step 21: Discard and create event on profile events history
 	- Step 1: Click on link 'Users'
 	- Step 2: Click on button 'Discard' -> Navigate to page 'profile/*/events-history'
 	- Step 3: Click on link  -> Navigate to page 'events'
 	- Step 4: Click on button 'Create Event →' -> Navigate to page 'events/add'
 	- Step 5: Click on input field
-Step 22: Click discard, create event and input details
+Step 22: Discard and create event on events page
 	- Step 1: Click on link 'Users'
 	- Step 2: Click on button 'Discard' -> Navigate to page 'users'
 	- Step 3: Click on link  -> Navigate to page 'events'
 	- Step 4: Click on button 'Create Event →' -> Navigate to page 'events/add'
 	- Step 5: Click on input field
-Step 23: Click save as draft, resume and input details
+Step 23: Save draft, resume, and fill event details
 	- Step 1: Click on button 'Save as draft' -> Navigate to page 'events/*'
 	- Step 2: Click on button 'Drafting'
 	- Step 3: Click on link 'Resume' -> Navigate to page 'events/drafts/*'
@@ -209,7 +209,7 @@ Step 23: Click save as draft, resume and input details
 	- Step 8: Click on input field 'startDate'
 	- Step 9: Click on div
 	- Step 10: Click on div
-Step 24: Click save as draft, resume, submit, publish, approve, and input details
+Step 24: Save draft, resume, and fill event details
 	- Step 1: Click on td
 	- Step 2: Click on button 'Save as draft' -> Navigate to page 'events/*'
 	- Step 3: Click on button 'Drafting'
@@ -232,7 +232,7 @@ Step 24: Click save as draft, resume, submit, publish, approve, and input detail
 	- Step 20: Click on input field 'submissionEndDate'
 	- Step 21: Click on td
 	- Step 22: Click on div
-Step 25: Click save as draft, resume, submit, and input details
+Step 25: Save draft, resume, and fill activity details
 	- Step 1: Click on div
 	- Step 2: Click on svg
 	- Step 3: Click on button 'Save as draft' -> Navigate to page 'events/*'
@@ -262,7 +262,7 @@ Step 25: Click save as draft, resume, submit, and input details
 Step 26: Click on svg
 Step 27: Click on button 'Save as draft' -> Navigate to page 'events/*'
 Step 28: Click on link 'Events' -> Navigate to page ''
-Step 29: Click my events, all and input details
+Step 29: View and input object details
 	- Step 1: Click on button 'My Events →'
 	- Step 2: Click on button 'All'
 	- Step 3: Click on span
@@ -273,7 +273,7 @@ Step 30: Click on link '+400HostDraftDraft 1231231231Sat, April 13 | 10:00 AMasd
 Step 31: Click on button 'Drafting'
 Step 32: Click on link 'Delete'
 Step 33: Click on button 'Delete' -> Navigate to page ''
-Step 34: Click my events, all and input details
+Step 34: View and input object details
 	- Step 1: Click on button 'My Events →'
 	- Step 2: Click on button 'All'
 	- Step 3: Click on span
@@ -296,7 +296,7 @@ Step 47: Click on button 'My Events →'
 Step 48: Click on input field
 Step 49: Enter input value in input field
 Step 50: Click on button 'All' -> Navigate to page ''
-Step 51: Click input details
+Step 51: View and input object details
 	- Step 1: Click on span
 	- Step 2: Click on input field
 	- Step 3: Click on span
@@ -317,7 +317,7 @@ Step 63: Click on button 'All'
 Step 64: Click on div
 Step 65: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 66: Click on input field  -> Navigate to page ''
-Step 67: Click save as draft, resume, and input details
+Step 67: Save draft, resume, and fill activity details
 	- Step 1: Click on button 'Save as draft' -> Navigate to page 'events/*'
 	- Step 2: Click on button 'Drafting'
 	- Step 3: Click on link 'Resume' -> Navigate to page 'events/drafts/*'
@@ -340,7 +340,7 @@ Step 67: Click save as draft, resume, and input details
 	- Step 20: Enter input value in input field 'activities[0].activityTitle'
 	- Step 21: Click on textarea 'activities[0].activityDescription'
 	- Step 22: Enter input value in textarea 'activities[0].activityDescription'
-Step 68: Click submit, publish, approve, and input details
+Step 68: Submit, publish, and approve events
 	- Step 1: Click on td
 	- Step 2: Click on svg
 	- Step 3: Click on div
@@ -360,7 +360,7 @@ Step 68: Click submit, publish, approve, and input details
 	- Step 17: Click on div
 Step 69: Take full page screenshot as checkpoint
 ",High
-7,Verify Event Submission and Pending Status at Page Events,Navigate to the page events and log in. Interact with elements such as buttons and inputs to submit an event and check its pending status. Verify the submission and pending status.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+8,Verify Pending Events Editing and Submission Process,Navigate to the events page and log in. Edit and submit pending events. Perform necessary actions to complete the editing and submission process.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 4: Click on input field
@@ -369,13 +369,13 @@ Step 6: Click on svg
 Step 7: Click on div
 Step 8: Click on svg
 Step 9: Click on button 'Submit' -> Navigate to page ''
-Step 10: Click pending, edit, delete, make copy, and submit
+Step 10: Pending events editing and submission
 	- Step 1: Click on button 'Pending'
 	- Step 2: Click on button 'PendingEditDeleteMake copy' -> Navigate to page 'events/*/edit'
 	- Step 3: Click on div
 	- Step 4: Click on div
 	- Step 5: Click on button 'Submit'
-Step 11: Click pending, edit, delete, make copy, and submit
+Step 11: Pending events editing and submission
 	- Step 1: Click on button 'Pending'
 	- Step 2: Click on button 'PendingEditDeleteMake copy' -> Navigate to page 'events/*/edit'
 	- Step 3: Click on div
@@ -383,20 +383,29 @@ Step 11: Click pending, edit, delete, make copy, and submit
 	- Step 5: Click on button 'Submit'
 Step 12: Take full page screenshot as checkpoint
 ",High
-6,Verify Event History and Profile at Page Events,Navigate to the page events and log in. Access the event history and profile sections to view and verify the displayed information.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+7,Verify Event Details Viewing and Navigation,Navigate to the events page and log in. View event details and navigate through different sections. Verify the event details viewing and navigation.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
 Step 4: Click on header
 Step 5: Click on link  -> Navigate to page 'events/*'
 Step 6: Take full page screenshot as checkpoint
 ",High
-12,Verify Event History at Page Profile Events History,Navigate to the page events and log in. Click on specific elements to view the event history. Verify the event history displayed on the page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+6,Verify Event Submission Confirmation Process,Navigate to the events page and log in. Create an event and confirm the submission. Verify the event submission confirmation process.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 4: Click on input field
+Step 5: Click on div
+Step 6: Click on button 'OK'
+Step 7: Click on button 'Submit' -> Navigate to page 'events/*'
+Step 8: Take full page screenshot as checkpoint
+",High
+13,Verify Viewing All Events in Profile Events History,Navigate to the events page and log in. View all events in the profile events history. Verify the viewing of all events in the profile events history.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
 Step 4: Click on button 'All (273)'
 Step 5: Take full page screenshot as checkpoint
 ",High
-5,Verify Event Submission and Approval at Page Events,Navigate to the page events and log in. Interact with elements to submit an event and ensure its approval. Verify the event submission and approval process.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+5,Verify Event Submission and Approval Process,Navigate to the events page and log in. Create an event and submit it for approval. Perform necessary actions to submit and approve the event.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 4: Click on input field
@@ -407,13 +416,13 @@ Step 8: Click on svg
 Step 9: Click on button 'Submit' -> Navigate to page 'events/*'
 Step 10: Take full page screenshot as checkpoint
 ",Medium
-4,Verify Event Details at Page Events Participants Full View,Navigate to the page home and log in. Click on specific hyperlinks to view event details. Verify the event details displayed on the page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com
+4,Verify Event Details Viewing on Events Page,Navigate to the home page and log in. View event details on the events page. Verify the event details viewing on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com
 Step 2: Login -> Navigate to page 'events/*/participantsFullView'
 Step 3: Click on link '123 Draft'
 Step 4: Click on link '123 Draft' -> Navigate to page 'events/*'
 Step 5: Take full page screenshot as checkpoint
-",Trivial
-3,Verify Host Approval and Event Details at Page Events,Navigate to the page events and log in. Click on specific elements related to host approval and event details. Verify the host approval and event details.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+",Low
+3,Verify Event Listing and Navigation on Events Page,Navigate to the events page and log in. Access the list of events and navigate through various sections. Verify the event listing and navigation on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'My Events →'
 Step 4: Click on link '+100HostApprovedtrue testSat, April 13 | 10:00 AMaaHoang Minh Chu' -> Navigate to page 'events/*'
