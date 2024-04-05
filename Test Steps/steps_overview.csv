@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Event Registration at pageEvents,Navigate to the pageEvents and login. Perform various actions including creating an event and checking in. Verify the event details on the page.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+1,Verify Successful Checkout Process at Page Events,Navigate to the pageEvents and login. Perform a series of actions including creating an event and verifying the pageEvents. Confirm the successful completion of the pageEvents process.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'My Events →'
 Step 4: Click on input field
@@ -15,9 +15,9 @@ Step 13: Enter input value in input field
 Step 14: Click on div
 Step 15: Take full page screenshot as checkpoint
 ",High
-2,Verify Event Creation and Approval at pageEventsAdd,Navigate to the pageHome and login. Create an event with specific details and proceed to the next step. Verify the successful addition of the event.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/
+2,Verify Event Creation and Submission at Page Home,Navigate to the pageHome and login. Create an event page by clicking the necessary buttons. Proceed with the event creation process and verify the successful submission of the pageEventsAdd.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/
 Step 2: Login
-Step 3: Click view more, objects, approved, test ticket, timeline, information, and create event
+Step 3: Click page events buttons and create event page
 	- Step 1: Click on link 'PL - KMS Meeting 03251126View more →' -> Navigate to page 'events/*'
 	- Step 2: Click on link  -> Navigate to page 'events'
 	- Step 3: Click on link '+100ApprovedCopied of VA test ticket timeline #206Sat, April 06 | 10:00 AMHCMCAnh Nhat Van Duong' -> Navigate to page 'events/*'
@@ -36,7 +36,7 @@ Step 4: Click on div
 Step 5: Click on button 'Next'
 Step 6: Take full page screenshot as checkpoint
 ",High
-8,Verify Event Participation and Registration at pageEvents,Navigate to the pageEvents and login. Participate in the event by checking in and confirming registration. Verify the event details and actions taken.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+8,Verify Event Registration and Check in Process at Page Events,Navigate to the pageEvents and login. Input necessary details and proceed with the event registration process. Perform check-ins at various stages and verify the completion of the pageEvents process.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on input field
 Step 4: Enter input value in input field
@@ -55,7 +55,7 @@ Step 16: Click on button 'Cancel Registration'
 Step 17: Click on button 'Confirm'
 Step 18: Take full page screenshot as checkpoint
 ",High
-9,Verify Event History and Profile at pageProfileEventsHistory,Navigate to the pageEvents and login. Access the event history and profile section. View and interact with various event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+9,Verify Event Viewing and History at Page Events,Navigate to the pageEvents and login. View and interact with various event-related elements. Access the event history and verify the displayed information at the pageEvents.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'My Events →'
 Step 4: Click on div
@@ -71,7 +71,7 @@ Step 13: Click on header
 Step 14: Click on link  -> Navigate to page 'events/*'
 Step 15: Take full page screenshot as checkpoint
 ",High
-10,Verify Event Participation and Check in at pageEventsParticipantsfullview,Navigate to the pageEvents and login. Participate in the event by checking in and confirming registration. Verify the event details and actions taken.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+10,Verify Event Participation and Check in at Page Events,Navigate to the pageEvents and login. Input required details and interact with event elements. Perform participation and check-in actions at different stages. Verify the completion of the pageEvents process.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on input field
 Step 4: Enter input value in input field
@@ -91,7 +91,276 @@ Step 17: Click on link '123 Draft'
 Step 18: Click on link '123 Draft' -> Navigate to page 'events/*'
 Step 19: Take full page screenshot as checkpoint
 ",High
-7,Verify Event Creation and Submission at pageEvents,Navigate to the pageEvents and login. Create an event with specific details and submit it. Verify the successful submission of the event.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+11,Verify Event Drafting and Publishing at Page Events,Navigate to the pageEvents and login. Create event drafts and fill in necessary details. Proceed with the drafting and publishing process. Verify the successful completion of the pageEvents.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 4: Click on input field
+Step 5: Click on button 'Save as draft' -> Navigate to page 'events/*'
+Step 6: Click on link 'Events' -> Navigate to page 'events'
+Step 7: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 8: Click on input field  -> Navigate to page ''
+Step 9: Click page events buttons and input submission end date
+	- Step 1: Click on div
+	- Step 2: Click on button 'Submit' -> Navigate to page 'events/*'
+	- Step 3: Click on button 'Publish'
+	- Step 4: Click on button 'PublishEditDeleteApproveRejectMake copy'
+	- Step 5: Click on button 'Cancel'
+	- Step 6: Click on button 'Publish'
+	- Step 7: Click on link 'Approve'
+	- Step 8: Click on button 'Checkin'
+	- Step 9: Click on button 'Checkin'
+	- Step 10: Click on button 'Participation'
+	- Step 11: Click on svg
+	- Step 12: Click on button 'Timeline'
+	- Step 13: Click on button 'Checkin' -> Navigate to page 'events/*/edit'
+	- Step 14: Click on div
+	- Step 15: Click on input field 'submissionEndDate'
+	- Step 16: Click on div
+	- Step 17: Click on div
+	- Step 18: Click on input field 'submissionEndDate'
+	- Step 19: Click on div
+	- Step 20: Click on div
+	- Step 21: Click on input field 'submissionEndDate'
+	- Step 22: Click on div
+	- Step 23: Click on p
+	- Step 24: Click on input field 'submissionEndDate'
+Step 10: Click page events buttons and input end date
+	- Step 1: Click on div
+	- Step 2: Click on svg
+	- Step 3: Click on svg
+	- Step 4: Click on div
+	- Step 5: Click on button 'Submit' -> Navigate to page 'events/*'
+	- Step 6: Click on button 'Timeline'
+	- Step 7: Click on div
+	- Step 8: Click on button 'Manage'
+	- Step 9: Click on image
+	- Step 10: Click on button 'Manage'
+	- Step 11: Click on button 'ManageEditNotifyNotify via mailDeleteRejectMake copy' -> Navigate to page 'events/*/edit'
+	- Step 12: Click on svg
+	- Step 13: Click on input field 'endDate'
+	- Step 14: Click on input field 'endDate'
+	- Step 15: Click on input field 'endDate'
+	- Step 16: Click on th 'Mo'
+	- Step 17: Click on div
+	- Step 18: Click on input field 'endDate'
+	- Step 19: Click on div
+	- Step 20: Click on div
+	- Step 21: Click on div
+	- Step 22: Click on input field 'endDate'
+	- Step 23: Click on div
+	- Step 24: Click on div
+	- Step 25: Click on div
+	- Step 26: Click on div
+	- Step 27: Click on div
+	- Step 28: Click on div
+	- Step 29: Click on div
+	- Step 30: Click on div
+	- Step 31: Click on div
+	- Step 32: Click on div
+	- Step 33: Click on div
+	- Step 34: Click on div
+	- Step 35: Click on div
+	- Step 36: Click on div
+	- Step 37: Click on div
+	- Step 38: Click on div
+	- Step 39: Click on input field 'endDate'
+	- Step 40: Click on div
+Step 11: Click hyperlink events and create event page
+	- Step 1: Click on button 'Back' -> Navigate to page 'events/*'
+	- Step 2: Click on button 'Timeline'
+	- Step 3: Click on div
+	- Step 4: Click on link 'Events' -> Navigate to page 'events'
+	- Step 5: Click on button 'Create Event →' -> Navigate to page 'events/add'
+	- Step 6: Click on input field
+Step 12: Click on button 'Save as draft'
+Step 13: Click on input field  -> Navigate to page ''
+Step 14: Click hyperlink users and create event page
+	- Step 1: Click on link 'Users'
+	- Step 2: Click on button 'Discard' -> Navigate to page 'users'
+	- Step 3: Click on link  -> Navigate to page 'events'
+	- Step 4: Click on button 'Create Event →' -> Navigate to page 'events/add'
+	- Step 5: Click on input field
+Step 15: Click on link 'Users'
+Step 16: Click on button 'Continue editing'
+Step 17: Click on input field
+Step 18: Click on link 'Users'
+Step 19: Click on button 'Continue editing'
+Step 20: Click on input field  -> Navigate to page ''
+Step 21: Click hyperlink users and create event page
+	- Step 1: Click on link 'Users'
+	- Step 2: Click on button 'Discard' -> Navigate to page 'profile/*/events-history'
+	- Step 3: Click on link  -> Navigate to page 'events'
+	- Step 4: Click on button 'Create Event →' -> Navigate to page 'events/add'
+	- Step 5: Click on input field
+Step 22: Click hyperlink users and create event page
+	- Step 1: Click on link 'Users'
+	- Step 2: Click on button 'Discard' -> Navigate to page 'users'
+	- Step 3: Click on link  -> Navigate to page 'events'
+	- Step 4: Click on button 'Create Event →' -> Navigate to page 'events/add'
+	- Step 5: Click on input field
+Step 23: Save draft events and fill details
+	- Step 1: Click on button 'Save as draft' -> Navigate to page 'events/*'
+	- Step 2: Click on button 'Drafting'
+	- Step 3: Click on link 'Resume' -> Navigate to page 'events/drafts/*'
+	- Step 4: Click on input field
+	- Step 5: Click on input field
+	- Step 6: Click on input field
+	- Step 7: Click on svg
+	- Step 8: Click on input field 'startDate'
+	- Step 9: Click on div
+	- Step 10: Click on div
+Step 24: Save draft events and fill details
+	- Step 1: Click on td
+	- Step 2: Click on button 'Save as draft' -> Navigate to page 'events/*'
+	- Step 3: Click on button 'Drafting'
+	- Step 4: Click on link 'Resume' -> Navigate to page 'events/drafts/*'
+	- Step 5: Click on svg
+	- Step 6: Click on input field
+	- Step 7: Click on div
+	- Step 8: Click on div
+	- Step 9: Click on div
+	- Step 10: Click on form
+	- Step 11: Click on input field 'endDate'
+	- Step 12: Click on td
+	- Step 13: Click on div
+	- Step 14: Click on div
+	- Step 15: Click on div
+	- Step 16: Click on svg
+	- Step 17: Click on svg
+	- Step 18: Click on div
+	- Step 19: Click on div
+	- Step 20: Click on input field 'submissionEndDate'
+	- Step 21: Click on td
+	- Step 22: Click on div
+Step 25: Save draft events and fill activity details
+	- Step 1: Click on div
+	- Step 2: Click on svg
+	- Step 3: Click on button 'Save as draft' -> Navigate to page 'events/*'
+	- Step 4: Click on button 'Drafting'
+	- Step 5: Click on link 'Resume' -> Navigate to page 'events/drafts/*'
+	- Step 6: Click on svg
+	- Step 7: Click on svg
+	- Step 8: Click on svg
+	- Step 9: Click on input field 'rc select 0'
+	- Step 10: Click on input field 'rc select 1'
+	- Step 11: Click on div
+	- Step 12: Click on div
+	- Step 13: Click on input field 'rc select 6'
+	- Step 14: Click on div
+	- Step 15: Click on span
+	- Step 16: Click on div
+	- Step 17: Click on div
+	- Step 18: Click on input field 'activities[0].activityTitle'
+	- Step 19: Enter input value in input field 'activities[0].activityTitle'
+	- Step 20: Click on textarea 'activities[0].activityDescription'
+	- Step 21: Enter input value in textarea 'activities[0].activityDescription'
+	- Step 22: Click on div
+	- Step 23: Click on input field 'activities[0].activityTitle'
+	- Step 24: Enter input value in input field 'activities[0].activityTitle'
+	- Step 25: Click on textarea 'activities[0].activityDescription'
+	- Step 26: Enter input value in textarea 'activities[0].activityDescription'
+Step 26: Click on svg
+Step 27: Click on button 'Save as draft' -> Navigate to page 'events/*'
+Step 28: Click on link 'Events' -> Navigate to page ''
+Step 29: Click my events and input details
+	- Step 1: Click on button 'My Events →'
+	- Step 2: Click on button 'All'
+	- Step 3: Click on span
+	- Step 4: Click on input field
+	- Step 5: Click on span
+	- Step 6: Click on input field
+Step 30: Click on link '+400HostDraftDraft 1231231231Sat, April 13 | 10:00 AMasdflaskdfjThy Thi Anh Phung' -> Navigate to page 'events/*'
+Step 31: Click on button 'Drafting'
+Step 32: Click on link 'Delete'
+Step 33: Click on button 'Delete' -> Navigate to page ''
+Step 34: Click my events and input details
+	- Step 1: Click on button 'My Events →'
+	- Step 2: Click on button 'All'
+	- Step 3: Click on span
+	- Step 4: Click on input field
+	- Step 5: Click on span
+	- Step 6: Click on input field
+Step 35: Click on div
+Step 36: Click on link 'HostDraftasfasfdN/A | N/AThy Thi Anh Phung' -> Navigate to page 'events/*'
+Step 37: Click on button 'Drafting'
+Step 38: Click on link 'Delete'
+Step 39: Click on button 'Cancel'
+Step 40: Click on image
+Step 41: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 42: Click on svg
+Step 43: Click on span
+Step 44: Click on button 'Delete'
+Step 45: Click on link 'Users' -> Navigate to page 'users'
+Step 46: Click on link  -> Navigate to page 'events'
+Step 47: Click on button 'My Events →'
+Step 48: Click on input field
+Step 49: Enter input value in input field
+Step 50: Click on button 'All' -> Navigate to page ''
+Step 51: Input details
+	- Step 1: Click on span
+	- Step 2: Click on input field
+	- Step 3: Click on span
+	- Step 4: Click on input field
+	- Step 5: Click on div
+Step 52: Click on div
+Step 53: Click on svg
+Step 54: Click on image
+Step 55: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 56: Click on button 'All (273)'
+Step 57: Click on div
+Step 58: Click on button 'All (273)'
+Step 59: Click on div
+Step 60: Click on link 'Users' -> Navigate to page 'users'
+Step 61: Click on link  -> Navigate to page 'events'
+Step 62: Click on button 'My Events →'
+Step 63: Click on button 'All'
+Step 64: Click on div
+Step 65: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 66: Click on input field  -> Navigate to page ''
+Step 67: Save draft events and fill activity details
+	- Step 1: Click on button 'Save as draft' -> Navigate to page 'events/*'
+	- Step 2: Click on button 'Drafting'
+	- Step 3: Click on link 'Resume' -> Navigate to page 'events/drafts/*'
+	- Step 4: Click on svg
+	- Step 5: Click on input field 'rc select 0'
+	- Step 6: Click on input field 'rc select 1'
+	- Step 7: Click on div
+	- Step 8: Click on div
+	- Step 9: Click on input field 'rc select 6'
+	- Step 10: Click on div
+	- Step 11: Click on span
+	- Step 12: Click on div
+	- Step 13: Click on div
+	- Step 14: Click on input field 'activities[0].activityTitle'
+	- Step 15: Enter input value in input field 'activities[0].activityTitle'
+	- Step 16: Click on textarea 'activities[0].activityDescription'
+	- Step 17: Enter input value in textarea 'activities[0].activityDescription'
+	- Step 18: Click on div
+	- Step 19: Click on input field 'activities[0].activityTitle'
+	- Step 20: Enter input value in input field 'activities[0].activityTitle'
+	- Step 21: Click on textarea 'activities[0].activityDescription'
+	- Step 22: Enter input value in textarea 'activities[0].activityDescription'
+Step 68: Click page events buttons and publish event
+	- Step 1: Click on td
+	- Step 2: Click on svg
+	- Step 3: Click on div
+	- Step 4: Click on svg
+	- Step 5: Click on div
+	- Step 6: Click on button 'Submit' -> Navigate to page 'events/*'
+	- Step 7: Click on button 'Publish'
+	- Step 8: Click on link 'Approve'
+	- Step 9: Click on div
+	- Step 10: Click on div
+	- Step 11: Click on div
+	- Step 12: Click on div
+	- Step 13: Click on div
+	- Step 14: Click on div
+	- Step 15: Click on div
+	- Step 16: Click on svg
+	- Step 17: Click on div
+Step 69: Take full page screenshot as checkpoint
+",High
+7,Verify Event Submission and Processing at Page Events,Navigate to the pageEvents and login. Input required details and interact with event elements. Submit the event details and verify the processing of the pageEvents.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 4: Click on input field
@@ -100,13 +369,13 @@ Step 6: Click on svg
 Step 7: Click on div
 Step 8: Click on svg
 Step 9: Click on button 'Submit' -> Navigate to page ''
-Step 10: Click page events, edit, delete, make copy, and submit
+Step 10: Click page events buttons and submit
 	- Step 1: Click on button 'Pending'
 	- Step 2: Click on button 'PendingEditDeleteMake copy' -> Navigate to page 'events/*/edit'
 	- Step 3: Click on div
 	- Step 4: Click on div
 	- Step 5: Click on button 'Submit'
-Step 11: Click page events, edit, delete, make copy, and submit
+Step 11: Click page events buttons and submit
 	- Step 1: Click on button 'Pending'
 	- Step 2: Click on button 'PendingEditDeleteMake copy' -> Navigate to page 'events/*/edit'
 	- Step 3: Click on div
@@ -114,22 +383,20 @@ Step 11: Click page events, edit, delete, make copy, and submit
 	- Step 5: Click on button 'Submit'
 Step 12: Take full page screenshot as checkpoint
 ",High
-6,Verify Event History and Profile at pageProfileEventsHistory,Navigate to the pageEvents and login. Access the event history and profile section. View and interact with various event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+6,Verify Event Viewing and Interaction at Page Events,Navigate to the pageEvents and login. View and interact with event-related elements. Access the event page and verify the displayed information at the pageEvents.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
 Step 4: Click on header
 Step 5: Click on link  -> Navigate to page 'events/*'
 Step 6: Take full page screenshot as checkpoint
 ",High
-5,Verify Event Details at pageEvents,Navigate to the pageEvents and login. View and interact with event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+12,Verify Event Viewing and Interaction at Page Profile Events History,Navigate to the pageEvents and login. View and interact with event-related elements. Access the event history and verify the displayed information at the pageProfileEventsHistory.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
-Step 3: Click on input field
-Step 4: Enter input value in input field
-Step 5: Click on link '+300Approved123 DraftWed, April 10 | 10:00 AM123 DraftThy Thi Anh Phung' -> Navigate to page 'events/*'
-Step 6: Click on div
-Step 7: Take full page screenshot as checkpoint
+Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 4: Click on button 'All (273)'
+Step 5: Take full page screenshot as checkpoint
 ",High
-4,Verify Event Creation and Submission at pageEvents,Navigate to the pageEvents and login. Create an event with specific details and submit it. Verify the successful submission of the event.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+5,Verify Event Submission and Processing at Page Events,Navigate to the pageEvents and login. Input required details and interact with event elements. Submit the event details and verify the processing of the pageEvents.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
 Step 2: Login
 Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
 Step 4: Click on input field
@@ -140,9 +407,15 @@ Step 8: Click on svg
 Step 9: Click on button 'Submit' -> Navigate to page 'events/*'
 Step 10: Take full page screenshot as checkpoint
 ",Medium
-3,Verify Event Details at pageEvents,Navigate to the pageHome and login. Access the event participants full view and view specific event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+4,Verify Event Viewing at Page Home Participants Full View,Navigate to the pageHome and login. View and interact with the event-related elements. Access the event page and verify the displayed information at the pageEvents.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page 'events/*/participantsFullView'
 Step 3: Click on link '123 Draft'
 Step 4: Click on link '123 Draft' -> Navigate to page 'events/*'
+Step 5: Take full page screenshot as checkpoint
+",Trivial
+3,Verify Event Details at Page Events,Navigate to the pageEvents and login. Access the 'My Events' section and interact with event elements. Verify the displayed information and completion of the pageEvents process.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on link '+100HostApprovedtrue testSat, April 13 | 10:00 AMaaHoang Minh Chu' -> Navigate to page 'events/*'
 Step 5: Take full page screenshot as checkpoint
 ",Trivial
