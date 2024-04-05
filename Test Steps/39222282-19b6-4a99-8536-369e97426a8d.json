@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on button 'Create Event \u2192' -> Navigate to page 'events/add'",
+        "step 4: Click on input field",
+        "step 5: Click on input field",
+        "step 6: Click on svg",
+        "step 7: Click on div",
+        "step 8: Click on svg",
+        "step 9: Click on button 'Submit' -> Navigate to page ''",
+        "step 10: Click page events, edit, delete, make copy, and submit",
+        "step 11: Click page events, edit, delete, make copy, and submit",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

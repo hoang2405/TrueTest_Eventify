@@ -1,81 +1,148 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Event Creation and Copying on Events Page,Navigate to the events page and login. Manage events by making a copy and filling in the required details. Submit the event and verify the page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
-step 2: Login -> Navigate to page 'events/*'
-step 3: Click on button 'Manage'
-step 4: Click on link 'Make copy' -> Navigate to page 'events/add'
-step 5: Click on input field 'title'
-step 6: Enter input value in input field 'title'
-step 7: Click on button 'Next'
-step 8: Click on button 'Next'
-step 9: Click on button 'Next'
-step 10: Click on button 'Skip'
-step 11: Click on button 'Submit' -> Navigate to page 'events/*'
-step 12: Click on link  -> Navigate to page 'events'
-step 13: Take full page screenshot as checkpoint",High
-4,Verify Participation and Notification on Events Page,Navigate to the events page and login. Access a specific event and manage participation. Notify via mail and verify the page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on div '  ga scan  '
-step 4: Click on link '+100\n\nHost\n\nApproved\n\nCopied of VA test ticket timeline #206\n\nSat, April 06 | 10:00 AM\n\nHCMC\nAnh Nhat Van Duong' -> Navigate to page 'events/*'
-step 5: Click on button 'Participation'
-step 6: Click on button 'Manage'
-step 7: Click on link 'Notify via mail'
-step 8: Click on input field 'subject'
-step 9: Take full page screenshot as checkpoint",High
-5,Verify Object Interactions on Events Page,Navigate to the events page and login. Interact with various objects and perform check-in. Verify the page after interactions.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on link '+100\n\nHost\n\nApproved\n\nCopied of Copied of Copied of VA test ticket timeline #206\n\nSat, April 06 | 10:00 AM\n\nHCMC\nThy Thi Anh Phung' -> Navigate to page 'events/*'
-step 4: Click on svg
-step 5: Click on button
-step 6: Click on div
-step 7: Click on svg
-step 8: Click on list item
-step 9: Click on svg
-step 10: Click on div
-step 11: Click on button 'Checkin'
-step 12: Take full page screenshot as checkpoint",High
-10,Verify Event Creation and Editing on Events Add Page,Navigate to the events page and login. Create and edit an event by providing the required details. Continue editing and verify the events add page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on button 'Create Event \u2192' -> Navigate to page 'events/add'
-step 4: Click on input field 'title'
-step 5: Click on input field 'title'
-step 6: Click on input field 'title'
-step 7: Enter input value in input field 'title'
-step 8: Click on link
-step 9: Click on button 'Continue editing'
-step 10: Click on input field 'location'
-step 11: Take full page screenshot as checkpoint",High
-6,Verify Interaction with Objects on Events Page,Navigate to the events page and login. Interact with specific objects and verify the page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on link '+100\n\nHost\n\nApproved\n\ntrue test\n\nSat, April 13 | 10:00 AM\n\naa\nHoang Minh Chu' -> Navigate to page 'events/*'
-step 4: Click on svg 'Flat'
-step 5: Take full page screenshot as checkpoint",Medium
-2,Verify Navigation to Events Page from Profile,Navigate to the home page and login. Access the profile and navigate to the events page. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
-step 2: Login -> Navigate to page 'profile/*'
-step 3: Click on link 'Events' -> Navigate to page 'events'
-step 4: Take full page screenshot as checkpoint",Medium
-3,Verify Interaction with Objects and Navigation on Events Page,Navigate to the events page and login. Interact with objects and navigate to the profile events history. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on link '+100\n\nApproved\n\nTest Draft Happy Day in April - More fun to come!\n\nWed, April 03 | 09:00 AM\n\nKMS Technology, 2 Tan Vien\nAnh Nhat Van Duong' -> Navigate to page 'events/*'
-step 4: Click on svg
-step 5: Click on span  -> Navigate to page 'profile/*'
-step 6: Click on svg
-step 7: Click on span  -> Navigate to page 'profile/*/events-history'
-step 8: Click on body
-step 9: Click on button
-step 10: Click on link  -> Navigate to page 'events'
-step 11: Take full page screenshot as checkpoint",Medium
-7,Verify My Events and Participants on Events Page,Navigate to the events page and login. Access 'My Events' and a specific participant. Verify the events page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on button 'My Events \u2192'
-step 4: Click on link '+100\n\nParticipants\n\ntrue test\n\nSat, April 13 | 10:00 AM\n\naa\nHoang Minh Chu' -> Navigate to page 'events/*'
-step 5: Take full page screenshot as checkpoint",Low
-8,Verify Interaction with Objects on Events Page,Navigate to the events page and login. Interact with specific objects and verify the page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com
-step 2: Login -> Navigate to page 'events/*'
-step 3: Click on svg
-step 4: Take full page screenshot as checkpoint",Low
-9,Verify Interaction with Hyperlinks on Events Page,Navigate to the events page and login. Interact with specific hyperlinks and verify the page.,"step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
-step 2: Login
-step 3: Click on link '+100\n\nApproved\n\nCopied of true test 05\n\nSat, April 13 | 10:00 AM\n\naa\nHoang Minh Chu'
-step 4: Click on link '2'
-step 5: Click on link '+200\n\nApproved\n\nuser create event\n\nFri, April 05 | 10:00 AM\n\naa\nDung Hoang Nguyen' -> Navigate to page 'events/*'
-step 6: Take full page screenshot as checkpoint",Trivial
+1,Verify Successful Event Registration at pageEvents,Navigate to the pageEvents and login. Perform various actions including creating an event and checking in. Verify the event details on the page.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on input field
+Step 5: Enter input value in input field
+Step 6: Click on link 'Create your own!' -> Navigate to page 'events/add'
+Step 7: Click on link  -> Navigate to page 'events'
+Step 8: Click on button 'My Events →'
+Step 9: Click on input field
+Step 10: Enter input value in input field
+Step 11: Click on div
+Step 12: Click on input field
+Step 13: Enter input value in input field
+Step 14: Click on div
+Step 15: Take full page screenshot as checkpoint
+",High
+2,Verify Event Creation and Approval at pageEventsAdd,Navigate to the pageHome and login. Create an event with specific details and proceed to the next step. Verify the successful addition of the event.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/
+Step 2: Login
+Step 3: Click view more, objects, approved, test ticket, timeline, information, and create event
+	- Step 1: Click on link 'PL - KMS Meeting 03251126View more →' -> Navigate to page 'events/*'
+	- Step 2: Click on link  -> Navigate to page 'events'
+	- Step 3: Click on link '+100ApprovedCopied of VA test ticket timeline #206Sat, April 06 | 10:00 AMHCMCAnh Nhat Van Duong' -> Navigate to page 'events/*'
+	- Step 4: Click on div
+	- Step 5: Click on div
+	- Step 6: Click on button
+	- Step 7: Click on div
+	- Step 8: Click on svg
+	- Step 9: Click on div
+	- Step 10: Click on button 'Timeline'
+	- Step 11: Click on button 'Information'
+	- Step 12: Click on link  -> Navigate to page 'events'
+	- Step 13: Click on button 'Create Event →' -> Navigate to page 'events/add'
+	- Step 14: Click on input field
+Step 4: Click on div
+Step 5: Click on button 'Next'
+Step 6: Take full page screenshot as checkpoint
+",High
+8,Verify Event Participation and Registration at pageEvents,Navigate to the pageEvents and login. Participate in the event by checking in and confirming registration. Verify the event details and actions taken.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on input field
+Step 4: Enter input value in input field
+Step 5: Click on link '+300123 DraftWed, April 10 | 10:00 AM123 DraftThy Thi Anh Phung' -> Navigate to page 'events/*'
+Step 6: Click on button 'Timeline'
+Step 7: Click on button 'Information'
+Step 8: Click on button 'Register Now'
+Step 9: Click on button 'Timeline'
+Step 10: Click on button 'Information'
+Step 11: Click on button 'Timeline'
+Step 12: Click on button 'Information'
+Step 13: Click on button 'Checkin'
+Step 14: Click on button 'Timeline'
+Step 15: Click on button 'Checkin'
+Step 16: Click on button 'Cancel Registration'
+Step 17: Click on button 'Confirm'
+Step 18: Take full page screenshot as checkpoint
+",High
+9,Verify Event History and Profile at pageProfileEventsHistory,Navigate to the pageEvents and login. Access the event history and profile section. View and interact with various event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on div
+Step 5: Click on button 'My Events →'
+Step 6: Click on button 'All'
+Step 7: Click on input field
+Step 8: Click on input field
+Step 9: Click on div
+Step 10: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 11: Click on button 'All (273)'
+Step 12: Click on div
+Step 13: Click on header
+Step 14: Click on link  -> Navigate to page 'events/*'
+Step 15: Take full page screenshot as checkpoint
+",High
+10,Verify Event Participation and Check in at pageEventsParticipantsfullview,Navigate to the pageEvents and login. Participate in the event by checking in and confirming registration. Verify the event details and actions taken.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on input field
+Step 4: Enter input value in input field
+Step 5: Click on link '+300Approved123 DraftWed, April 10 | 10:00 AM123 DraftThy Thi Anh Phung' -> Navigate to page 'events/*'
+Step 6: Click on button 'Participation'
+Step 7: Click on button 'Checkin'
+Step 8: Click on button 'Participation'
+Step 9: Click on button 'Checkin'
+Step 10: Click on button 'Participation'
+Step 11: Click on svg
+Step 12: Click on div
+Step 13: Click on svg 'Flat' -> Navigate to page 'events/*/participantsFullView'
+Step 14: Click on link '123 Draft'
+Step 15: Click on link '123 Draft' -> Navigate to page 'events/*'
+Step 16: Click on button 'Checkin' -> Navigate to page 'events/*/participantsFullView'
+Step 17: Click on link '123 Draft'
+Step 18: Click on link '123 Draft' -> Navigate to page 'events/*'
+Step 19: Take full page screenshot as checkpoint
+",High
+7,Verify Event Creation and Submission at pageEvents,Navigate to the pageEvents and login. Create an event with specific details and submit it. Verify the successful submission of the event.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 4: Click on input field
+Step 5: Click on input field
+Step 6: Click on svg
+Step 7: Click on div
+Step 8: Click on svg
+Step 9: Click on button 'Submit' -> Navigate to page ''
+Step 10: Click page events, edit, delete, make copy, and submit
+	- Step 1: Click on button 'Pending'
+	- Step 2: Click on button 'PendingEditDeleteMake copy' -> Navigate to page 'events/*/edit'
+	- Step 3: Click on div
+	- Step 4: Click on div
+	- Step 5: Click on button 'Submit'
+Step 11: Click page events, edit, delete, make copy, and submit
+	- Step 1: Click on button 'Pending'
+	- Step 2: Click on button 'PendingEditDeleteMake copy' -> Navigate to page 'events/*/edit'
+	- Step 3: Click on div
+	- Step 4: Click on div
+	- Step 5: Click on button 'Submit'
+Step 12: Take full page screenshot as checkpoint
+",High
+6,Verify Event History and Profile at pageProfileEventsHistory,Navigate to the pageEvents and login. Access the event history and profile section. View and interact with various event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 4: Click on header
+Step 5: Click on link  -> Navigate to page 'events/*'
+Step 6: Take full page screenshot as checkpoint
+",High
+5,Verify Event Details at pageEvents,Navigate to the pageEvents and login. View and interact with event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on input field
+Step 4: Enter input value in input field
+Step 5: Click on link '+300Approved123 DraftWed, April 10 | 10:00 AM123 DraftThy Thi Anh Phung' -> Navigate to page 'events/*'
+Step 6: Click on div
+Step 7: Take full page screenshot as checkpoint
+",High
+4,Verify Event Creation and Submission at pageEvents,Navigate to the pageEvents and login. Create an event with specific details and submit it. Verify the successful submission of the event.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 4: Click on input field
+Step 5: Click on input field
+Step 6: Click on svg
+Step 7: Click on div
+Step 8: Click on svg
+Step 9: Click on button 'Submit' -> Navigate to page 'events/*'
+Step 10: Take full page screenshot as checkpoint
+",Medium
+3,Verify Event Details at pageEvents,Navigate to the pageHome and login. Access the event participants full view and view specific event details. Verify the displayed information.,"Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+Step 2: Login -> Navigate to page 'events/*/participantsFullView'
+Step 3: Click on link '123 Draft'
+Step 4: Click on link '123 Draft' -> Navigate to page 'events/*'
+Step 5: Take full page screenshot as checkpoint
+",Trivial
