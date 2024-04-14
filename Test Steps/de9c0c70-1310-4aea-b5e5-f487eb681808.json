@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on html",
+        "step 4: Click on button 'My Events \u2192'",
+        "step 5: Click on div",
+        "step 6: Click on button 'My Events \u2192'",
+        "step 7: Click on button 'All'",
+        "step 8: Click on input field",
+        "step 9: Click on span",
+        "step 10: Click on input field",
+        "step 11: Click on link '+100PendingTEST MULTIPLE HOSTWed, April 10 | 10:00 AMT\u1ea3n vi\u00ean' -> Navigate to page 'events/*'",
+        "step 12: Click on button 'Publish'",
+        "step 13: Click on button 'ApprovedDeleteRegister NowMake copy'",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}
