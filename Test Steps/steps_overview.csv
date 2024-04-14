@@ -1,10 +1,1120 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Events Page after Logging In,Navigate to the events page and log in. Interact with various elements on the page including approved tests. Proceed to view 'My Events' section and verify the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+6,Verify Successful Login and Navigation to Events Page,Navigate to the events page and login. Click on specific links and objects to verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
 Step 2: Login
-Step 3: Click on link '+100HostApprovedtrue testSat, April 13 | 10:00 AMaa' -> Navigate to page 'events/*'
-Step 4: Click on span
-Step 5: Click on span
+Step 3: Click on link '+300HostApprovedHappen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on div
+Step 5: Click on link 'Events' -> Navigate to page 'events'
+Step 6: Take full page screenshot as checkpoint
+",High
+39,Verify Event Publishing and Approval,"Navigate to the events page and login. Publish an event and approve it. Perform actions like deletion and registration. Finally, verify the published and approved event on the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on html
+Step 4: Click on button 'My Events →'
+Step 5: Click on div
+Step 6: Click on button 'My Events →'
+Step 7: Click on button 'All'
+Step 8: Click on input field
+Step 9: Click on span
+Step 10: Click on input field
+Step 11: Click on link '+100PendingTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+Step 12: Click on button 'Publish'
+Step 13: Click on button 'ApprovedDeleteRegister NowMake copy'
+Step 14: Take full page screenshot as checkpoint
+",High
+26,Verify Checkout Process Completion,"Navigate to the events page and login. Click through multiple objects and links until reaching the 'pageEvents'. Perform various actions like delete and check-in. Finally, verify the successful completion of the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span
+Step 4: Click on div
+Step 5: Click on link
+Step 6: Click on link
+Step 7: Click on link
+Step 8: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 9: Click on link  -> Navigate to page 'events'
+Step 10: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 11: Click on link  -> Navigate to page 'events'
+Step 12: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 13: Click on link  -> Navigate to page 'events'
+Step 14: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 15: Click on link 'Events' -> Navigate to page 'events'
+Step 16: Click on span
+Step 17: Click on span
+Step 18: Click on div
+Step 19: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 20: Click on span
+Step 21: Click on span
+Step 22: Click on button 'Delete'
+Step 23: Click on span
+Step 24: Click on span
+Step 25: Click on button 'Delete'
+Step 26: Click on div
+Step 27: Click on link  -> Navigate to page 'events/*'
+Step 28: Click on button 'Participation'
+Step 29: Click on link  -> Navigate to page 'events'
+Step 30: Click on span
+Step 31: Click on div
+Step 32: Click on link
+Step 33: Click on button
+Step 34: Click on link '3'
+Step 35: Click on iframe 'simulator'
+Step 36: Click on link '3'
+Step 37: Click on iframe 'simulator'
+Step 38: Click on svg
+Step 39: Click on svg
+Step 40: Click on svg
+Step 41: Click on link 'Events'
+Step 42: Click on iframe 'simulator'
+Step 43: Click on svg
+Step 44: Click on link 'Events'
+Step 45: Click on iframe 'simulator'
+Step 46: Click on link '3'
+Step 47: Click on iframe 'simulator'
+Step 48: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 49: Click on svg
+Step 50: Click on span
+Step 51: Click on svg
+Step 52: Click on span  -> Navigate to page 'events'
+Step 53: Take full page screenshot as checkpoint
+",High
+27,Verify Releases and Projects Navigation,Navigate to the events page and login. Access different objects and links to view project details and releases. Verify the displayed releases from the organization's team project.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on link '+300HostApprovedHOST5Wed, April 10 | 10:00 AMasdasdKMS Technology, KMS Software, Organization Communication' -> Navigate to page 'events/*'
+Step 5: Click on list
+Step 6: Click on button 'Host'
+Step 7: Click on button
+Step 8: Click on div
+Step 9: Click on button
+Step 10: Click on button 'Participation'
+Step 11: Click on svg 'Flat' -> Navigate to page 'events/*/participantsFullView'
+Step 12: Click on link 'Copied of true test 01' -> Navigate to page 'events/*'
+Step 13: Click on link  -> Navigate to page 'events'
+Step 14: Click on image
+Step 15: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 16: Click on link  -> Navigate to page 'profile/*'
+Step 17: Click on p  -> Navigate to page 'profile/*/preference'
+Step 18: Click on div  -> Navigate to page 'profile/*/information'
+Step 19: Click on p  -> Navigate to page 'profile/*/help-center'
+Step 20: Click on p  -> Navigate to page 'profile/*/preference'
+Step 21: Click on div  -> Navigate to page 'profile/*/information'
+Step 22: Click on link 'Users' -> Navigate to page 'users'
+Step 23: Click on link 'Events' -> Navigate to page 'events'
+Step 24: Click on section
+Step 25: Click on image
+Step 26: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 27: Click on link  -> Navigate to page 'events/*'
+Step 28: Click on link 'Events History' -> Navigate to page 'profile/*/events-history'
+Step 29: Click on link  -> Navigate to page 'events'
+Step 30: Click on link 'Users' -> Navigate to page 'users'
+Step 31: Click on link 'Events' -> Navigate to page 'events'
+Step 32: Click on image
+Step 33: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 34: Click on link  -> Navigate to page 'events/*'
+Step 35: Click on button 'Participation'
+Step 36: Click on svg 'Flat' -> Navigate to page 'events/*/participantsFullView'
+Step 37: Click on link 'Copied of true test 01' -> Navigate to page 'events/*'
+Step 38: Click on link  -> Navigate to page 'events'
+Step 39: Take full page screenshot as checkpoint
+",High
+28,Verify Event Creation and Participation,"Navigate to the events page and login. Create an event by filling in the required form and selecting options. Proceed through various actions like check-in and participation. Finally, verify the created event on the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on section
+Step 5: Click on button 'My Events →'
+Step 6: Click on button 'All'
+Step 7: Click on input field
+Step 8: Click on input field
+Step 9: Click on div
+Step 10: Click on link '+300HostApprovedHOST5Wed, April 10 | 10:00 AMasdasdKMS Technology, KMS Software, Organization Communication' -> Navigate to page 'events/*'
+Step 11: Click on button 'Checkin'
+Step 12: Click on button 'Participation'
+Step 13: Click on button 'Checkin'
+Step 14: Click on button 'Participation'
+Step 15: Click on button 'Checkin'
+Step 16: Click on button 'Checkin'
+Step 17: Click on image
+Step 18: Click on image
+Step 19: Click on link  -> Navigate to page 'events'
+Step 20: Click on link '+300ApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And Participant' -> Navigate to page 'events/*'
+Step 21: Click on button 'Participation'
+Step 22: Click on button 'Timeline'
+Step 23: Click on link  -> Navigate to page 'events'
+Step 24: Click on link '+300ApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And Participant' -> Navigate to page 'events/*'
+Step 25: Click on button 'Participation'
+Step 26: Click on button 'Timeline'
+Step 27: Click on link  -> Navigate to page 'events'
+Step 28: Click on button 'Create Event →'
+Step 29: Fill form and select options
+	- Step 1: Click on div
+	- Step 2: Click on input field 'title'
+	- Step 3: Enter input value in input field 'title'
+	- Step 4: Click on input field 'location'
+	- Step 5: Enter input value in input field 'location'
+	- Step 6: Click on input field
+	- Step 7: Click on button 'Next'
+	- Step 8: Click on p
+	- Step 9: Click on div
+	- Step 10: Click on div
+	- Step 11: Click on div
+	- Step 12: Click on div
+	- Step 13: Click on form
+	- Step 14: Click on div
+	- Step 15: Click on div
+	- Step 16: Enter input value in input field 'rc select 2'
+	- Step 17: Click on div
+	- Step 18: Enter input value in input field 'rc select 2'
+	- Step 19: Click on div
+	- Step 20: Click on input field 'rc select 3'
+	- Step 21: Click on div
+	- Step 22: Click on input field 'rc select 0'
+	- Step 23: Click on div
+	- Step 24: Click on input field 'rc select 4'
+	- Step 25: Click on div
+	- Step 26: Click on button 'Next'
+	- Step 27: Click on div
+	- Step 28: Click on div
+	- Step 29: Click on input field 'happenDate'
+	- Step 30: Click on div
+	- Step 31: Click on div
+	- Step 32: Click on input field 'endDate'
+Step 30: Click on div
+Step 31: Click on div
+Step 32: Click on button 'OK'
+Step 33: Click on button 'Submit' -> Navigate to page 'events/*'
+Step 34: Click on button 'Publish'
+Step 35: Click on link 'Approve'
+Step 36: Click on button 'Checkin'
+Step 37: Click on button 'Participation'
+Step 38: Click on button 'Checkin'
+Step 39: Click on button 'Participation'
+Step 40: Click on button 'Checkin'
+Step 41: Click on button 'Participation'
+Step 42: Click on button 'Checkin'
+Step 43: Click on button 'Participation'
+Step 44: Click on button 'Checkin'
+Step 45: Click on svg
+Step 46: Click on div
+Step 47: Click on svg
+Step 48: Click on div
+Step 49: Click on button 'Checkin'
+Step 50: Click on svg
+Step 51: Click on div
+Step 52: Click on button
+Step 53: Click on button 'Information'
+Step 54: Click on link '+200Approveduser create eventFri, April 05 | 10:00 AMaa'
+Step 55: Click on button 'Participation'
+Step 56: Click on button 'Timeline'
+Step 57: Click on link  -> Navigate to page 'events'
+Step 58: Click on link '+300ApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And Participant' -> Navigate to page 'events/*'
+Step 59: Click on link  -> Navigate to page 'events'
+Step 60: Click on button 'My Events →'
+Step 61: Click on svg
+Step 62: Click on div
+Step 63: Click on button 'All'
+Step 64: Click on input field
+Step 65: Click on input field
+Step 66: Click on link '+100HostApprovedTest visibilityFri, April 12 | 10:00 AMHCMCKMS Technology' -> Navigate to page 'events/*'
+Step 67: Click on button 'Participation'
+Step 68: Click on button 'Checkin'
+Step 69: Click on button 'Participation' -> Navigate to page 'events'
+Step 70: Click on button 'My Events →'
+Step 71: Click on svg
+Step 72: Click on button 'All'
+Step 73: Click on input field
+Step 74: Click on input field
+Step 75: Click on div
+Step 76: Click on div
+Step 77: Take full page screenshot as checkpoint
+",High
+36,Verify Participants and Event Details,Navigate to the events page and login. Access participant details and event information. Verify the displayed participants and details on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300HostApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And ParticipantKMS Software' -> Navigate to page 'events/*'
+Step 4: Click on button 'Participation'
+Step 5: Click on button  -> Navigate to page 'events/*/participantsFullView'
+Step 6: Click on link 'Copied of true test 01' -> Navigate to page 'events/*'
+Step 7: Click on button
+Step 8: Click on div
+Step 9: Take full page screenshot as checkpoint
+",High
+37,Verify Event Participation and Details,Navigate to the home page and login. Participate in an event and view participant details. Verify the participation and details of the event on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com
+Step 2: Login -> Navigate to page 'events/*'
+Step 3: Click on button 'Participation'
+Step 4: Click on button  -> Navigate to page 'events/*/participantsFullView'
+Step 5: Click on link 'Copied of true test 01' -> Navigate to page 'events/*'
+Step 6: Click on link 'Events'
+Step 7: Click on button 'Participation' -> Navigate to page 'events/*/participantsFullView/*'
+Step 8: Click on link  -> Navigate to page 'events'
+Step 9: Click on link '+300HostApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And ParticipantKMS Software' -> Navigate to page 'events/*'
+Step 10: Take full page screenshot as checkpoint
+",High
+7,Verify Social Links Input and Navigation to Home Page from Events,Navigate to the events page and login. Interact with social links and navigate back to the home page. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span  -> Navigate to page 'profile/*'
+Step 4: Click on div
+Step 5: Click on div
+Step 6: Click on input field 'socialLinks[0].link'
+Step 7: Click on input field 'socialLinks[0].link'
+Step 8: Click on input field 'socialLinks[1].link'
+Step 9: Click on input field 'socialLinks[0].link'
+Step 10: Click on link 'Back to Home Page' -> Navigate to page 'events'
+Step 11: Take full page screenshot as checkpoint
+",High
+40,Verify Event Notification and Form Submission,"Navigate to the events page and login. Access user and event details. Fill in forms, send data, and verify the successful submission of the form on the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on link '+300ParticipantsApprovedHappen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 5: Click on button 'Approved'
+Step 6: Click on link 'Users' -> Navigate to page 'users'
+Step 7: Click on link 'Events' -> Navigate to page 'events'
+Step 8: Click on link '+100ApprovedCopied of true test 05Sat, April 13 | 10:00 AMaa' -> Navigate to page 'events/*'
+Step 9: Click on button 'Approved'
+Step 10: Click on link 'Notify via mail'
+Step 11: Click on input field
+Step 12: Click on input field
+Step 13: Enter input value in input field
+Step 14: Click on link '0308 - Phong Hai Le'
+Step 15: Click on span
+Step 16: Click on input field 'form-field 670070622901712722996816'
+Step 17: Click on button 'Cancel'
+Step 18: Fill form and send data
+	- Step 1: Click on input field
+	- Step 2: Click on button 'Cc'
+	- Step 3: Click on label
+	- Step 4: Click on input field
+	- Step 5: Click on button 'Send'
+Step 19: Take full page screenshot as checkpoint
+",High
+24,Verify Social Links Input and Navigation to Home Page from Events,Navigate to the events page and login. Interact with social links and navigate back to the home page. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on image
+Step 4: Click on span  -> Navigate to page 'profile/*'
+Step 5: Click on button 'Preview'
+Step 6: Click on button 'Quit Preview'
+Step 7: Click on div
+Step 8: Click on div
+Step 9: Click on div
+Step 10: Click on div
+Step 11: Click on div
+Step 12: Click on div
+Step 13: Click on div
+Step 14: Click on div
+Step 15: Click on div
+Step 16: Click on div
+Step 17: Click on div
+Step 18: Click on div
+Step 19: Click on button 'Preview'
+Step 20: Click on button 'Quit Preview'
+Step 21: Click on div
+Step 22: Click on button 'Preview'
+Step 23: Click on button 'Quit Preview'
+Step 24: Click on div
+Step 25: Click on button 'Preview'
+Step 26: Click on button 'Quit Preview'
+Step 27: Click on div
+Step 28: Click on button 'Preview'
+Step 29: Click on button 'Quit Preview'
+Step 30: Click on span
+Step 31: Click on div
+Step 32: Click on span
+Step 33: Click on div  -> Navigate to page 'users'
+Step 34: Click on image
+Step 35: Click on span  -> Navigate to page 'profile/*'
+Step 36: Click on div
+Step 37: Click on button 'Preview'
+Step 38: Click on button 'Quit Preview'
+Step 39: Click on div
+Step 40: Click on div
+Step 41: Click on div
+Step 42: Click on div
+Step 43: Click on div
+Step 44: Click on div
+Step 45: Click on div
+Step 46: Click on div
+Step 47: Click on div
+Step 48: Click on button 'Preview'
+Step 49: Click on button 'Quit Preview'
+Step 50: Click on input field 'socialLinks[0].link'
+Step 51: Click on input field 'socialLinks[0].link'
+Step 52: Click on input field 'socialLinks[1].link'
+Step 53: Click on input field 'socialLinks[0].link'
+Step 54: Click on link 'Back to Home Page' -> Navigate to page 'events'
+Step 55: Take full page screenshot as checkpoint
+",High
+41,Verify User Profile and Event Participation,Navigate to the home page and login. Participate in an event and view user profile details. Verify the participation and details of the event on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com
+Step 2: Login -> Navigate to page 'events/*'
+Step 3: Click on button 'Participation'
+Step 4: Click on image
+Step 5: Click on span  -> Navigate to page 'profile/*'
+Step 6: Click on link 'Users' -> Navigate to page 'users'
+Step 7: Click on div
+Step 8: Click on input field 'checkbox-+3'
+Step 9: Click on input field 'checkbox-+2'
+Step 10: Click on input field 'checkbox-+1'
+Step 11: Click on header
+Step 12: Click on tr
+Step 13: Click on div
+Step 14: Click on div
+Step 15: Click on p  -> Navigate to page 'events/*'
+Step 16: Click on button 'Participation'
+Step 17: Click on button
+Step 18: Click on button 'Participation'
+Step 19: Take full page screenshot as checkpoint
+",High
+42,Verify Event Drafting and Submission,"Navigate to the events page and login. Draft an event and manage it. Perform actions like resuming and deletion. Finally, verify the drafted event on the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 4: Click on button 'All (286)'
+Step 5: Click on header
+Step 6: Click on span
+Step 7: Click on span
+Step 8: Click on button 'Delete'
+Step 9: Click on span
+Step 10: Click on link  -> Navigate to page 'events/*'
+Step 11: Click on image
+Step 12: Click on span  -> Navigate to page 'profile/*'
+Step 13: Click on image
+Step 14: Click on link  -> Navigate to page 'events'
+Step 15: Click on button 'All'
+Step 16: Click on input field
+Step 17: Click on span
+Step 18: Click on input field
+Step 19: Click on input field
+Step 20: Click on link '+100HostDraftVA to test #278Sun, April 14 | 10:00 AMHCMCKMS Software' -> Navigate to page 'events/*'
+Step 21: Click on button 'Drafting'
+Step 22: Click on button 'DraftingResumeDeleteMake copy'
+Step 23: Take full page screenshot as checkpoint
+",High
+43,Verify Event Publishing and Co Hosting,Navigate to the events page and login. Publish an event and co-host it. Perform actions like check-in and participation. Verify the successful hosting and participation in the event.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+100Test visibilityFri, April 12 | 10:00 AMHCMC' -> Navigate to page 'events/*'
+Step 4: Click on button
+Step 5: Click on span  -> Navigate to page 'events'
+Step 6: Click on link '+100Test visibilityFri, April 12 | 10:00 AMHCMC'
+Step 7: Click on span
+Step 8: Click on link 'Phuoc Nguyen has just approved event ContactPoints For CheckIn And Participanta day ago' -> Navigate to page 'events/*'
+Step 9: Click on div
+Step 10: Click on div
+Step 11: Click on div
+Step 12: Click on div
+Step 13: Click on div
+Step 14: Click on div
+Step 15: Click on div
+Step 16: Click on div  -> Navigate to page 'users-profile/*'
+Step 17: Click on link 'Back to Home Page' -> Navigate to page 'events'
+Step 18: Click on link '+100Test visibilityFri, April 12 | 10:00 AMHCMC' -> Navigate to page 'events/*'
+Step 19: Click on div
+Step 20: Click on div
+Step 21: Click on div
+Step 22: Click on div
+Step 23: Click on div
+Step 24: Click on div
+Step 25: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 26: Click on link  -> Navigate to page 'events/*'
+Step 27: Take full page screenshot as checkpoint
+",High
+44,Verify Event Draft Copy and Management,"Navigate to the events page and login. Access draft event details and make a copy. Fill in event details and manage them. Finally, verify the successful addition of the draft event on the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link 'Users' -> Navigate to page 'users'
+Step 4: Click on link 'Events' -> Navigate to page 'events'
+Step 5: Click on link '+300ApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And Participant' -> Navigate to page 'events/*'
+Step 6: Click on button 'Publish'
+Step 7: Click on button 'ApprovedDeleteRegister NowMake copy'
+Step 8: Click on button 'Participation'
+Step 9: Click on link 'Events' -> Navigate to page 'events'
+Step 10: Click on button 'All'
+Step 11: Click on input field
+Step 12: Click on input field
+Step 13: Click on section
+Step 14: Click on link '+100HostApprovedBadminton test org hostWed, April 10 | 10:00 AMHCMCOther Organization' -> Navigate to page 'events/*'
+Step 15: Click on button 'Participation'
+Step 16: Click on button
+Step 17: Click on link  -> Navigate to page 'events'
+Step 18: Click on button 'All'
+Step 19: Click on input field
+Step 20: Click on input field
+Step 21: Click on section
+Step 22: Click on link '+100Co-HostCopied of test notiN/A | N/AabcClosed' -> Navigate to page 'events/*'
+Step 23: Click on link  -> Navigate to page 'events'
+Step 24: Click on link '+300Approved123 DraftWed, April 10 | 10:00 AM123 Draft' -> Navigate to page 'events/*'
+Step 25: Click on button 'Participation'
+Step 26: Click on button 'Checkin'
+Step 27: Click on button 'Participation'
+Step 28: Click on button 'Checkin'
+Step 29: Click on svg
+Step 30: Click on div
+Step 31: Click on svg
+Step 32: Click on div
+Step 33: Click on button 'Host'
+Step 34: Click on button 'Participation'
+Step 35: Click on button 'Information'
+Step 36: Take full page screenshot as checkpoint
+",High
+49,Verify Event Editing and Notification Management,"Navigate to the events page and login. Manage event details and notifications. Create a new event by filling in the form and selecting options. Finally, verify the successful addition of the new event on the events page.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link 'DraftTest Draft Event 12345N/A | N/ATest Draft Event 12345' -> Navigate to page 'events/*'
+Step 4: Click on button 'Manage'
+Step 5: Click on link 'Make copy' -> Navigate to page 'events/add'
+Step 6: Click on div
+Step 7: Click on input field 'title'
+Step 8: Click on div
+Step 9: Enter input value in input field 'title'
+Step 10: Click on div
+Step 11: Click on button 'Next'
+Step 12: Click on span
+Step 13: Click on div
+Step 14: Click on div
+Step 15: Enter input value in input field 'rc select 1'
+Step 16: Click on div
+Step 17: Click on div
+Step 18: Click on div
+Step 19: Click on div
+Step 20: Click on button
+Step 21: Click on button
+Step 22: Click on input field 'startDate'
+Step 23: Click on div
+Step 24: Click on div
+Step 25: Click on button 'Next'
+Step 26: Click on input field 'happenDate'
+Step 27: Click on div
+Step 28: Click on div
+Step 29: Click on button 'Next'
+Step 30: Click on button 'Skip'
+Step 31: Click on button 'Submit'
+Step 32: Click on button 'Submit'
+Step 33: Click on span
+Step 34: Click on span
+Step 35: Click on button 'Next'
+Step 36: Click on button 'Next'
+Step 37: Click on button 'Skip'
+Step 38: Take full page screenshot as checkpoint
+",High
+50,Verify Event Creation and Form Submission,Navigate to the home page and login. Reject an event and navigate to the events page. Verify the successful rejection of the event on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on button 'All'
+Step 5: Click on link '2'
+Step 6: Manage event details and notifications
+	- Step 1: Click on link '+100HostApprovedTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+	- Step 2: Click on button 'Manage'
+	- Step 3: Click on button 'ManageEditNotifyNotify via mailMake copy' -> Navigate to page 'events/*/edit'
+	- Step 4: Click on div
+	- Step 5: Click on div
+Step 7: Click on link  -> Navigate to page 'events'
+Step 8: Click on button 'Create Event →'
+Step 9: Fill form and select options
+	- Step 1: Click on div
+	- Step 2: Click on input field 'title'
+	- Step 3: Enter input value in input field 'title'
+	- Step 4: Click on input field 'location'
+	- Step 5: Enter input value in input field 'location'
+	- Step 6: Click on input field
+	- Step 7: Click on button 'Next'
+	- Step 8: Click on p
+	- Step 9: Click on div
+	- Step 10: Click on div
+	- Step 11: Click on div
+	- Step 12: Click on div
+	- Step 13: Click on form
+	- Step 14: Click on div
+	- Step 15: Click on div
+	- Step 16: Enter input value in input field 'rc select 2'
+	- Step 17: Click on div
+	- Step 18: Enter input value in input field 'rc select 2'
+	- Step 19: Click on div
+	- Step 20: Click on input field 'rc select 3'
+	- Step 21: Click on div
+	- Step 22: Click on input field 'rc select 0'
+	- Step 23: Click on div
+	- Step 24: Click on input field 'rc select 4'
+	- Step 25: Click on div
+	- Step 26: Click on button 'Next'
+	- Step 27: Click on div
+	- Step 28: Click on div
+	- Step 29: Click on input field 'happenDate'
+	- Step 30: Click on div
+	- Step 31: Click on div
+	- Step 32: Click on input field 'endDate'
+Step 10: Click on div
+Step 11: Click on div
+Step 12: Take full page screenshot as checkpoint
+",High
+25,Verify Object Interactions and Navigation on Events Page,"Navigate to the events page and login. Interact with objects, links, and navigate through different sections. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on div
+Step 5: Click on button 'All'
+Step 6: Click on div
+Step 7: Click on link
+Step 8: Click on button 'All'
+Step 9: Click on input field
+Step 10: Click on input field
+Step 11: Click on input field
+Step 12: Click on div
+Step 13: Click on link '2'
+Step 14: Click on link 'Users' -> Navigate to page 'users'
+Step 15: Click on link 'Events' -> Navigate to page 'events'
+Step 16: Click on link 'Rewards' -> Navigate to page 'rewards'
+Step 17: Click on link 'Events' -> Navigate to page 'events'
+Step 18: Click on button 'All'
+Step 19: Click on span
+Step 20: Click on input field
+Step 21: Click on button 'All'
+Step 22: Click on input field
+Step 23: Click on input field
+Step 24: Click on div
+Step 25: Click on span
+Step 26: Click on div
+Step 27: Click on span  -> Navigate to page 'profile/*'
+Step 28: Click on button 'Preview'
+Step 29: Click on button 'Quit Preview'
+Step 30: Click on link 'Events' -> Navigate to page 'events'
+Step 31: Click on button 'All'
+Step 32: Click on input field
+Step 33: Click on div
+Step 34: Click on div
+Step 35: Click on button 'Please select'
+Step 36: Click on input field
+Step 37: Take full page screenshot as checkpoint
+",High
+38,Verify Event Check in and Participation,Navigate to the events page and login. Access event details and participate in the event. Perform check-in actions and verify the successful participation in the event.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on link  -> Navigate to page 'events'
+Step 5: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
 Step 6: Click on link  -> Navigate to page 'events'
 Step 7: Click on button 'My Events →'
+Step 8: Click on link '+100HostApprovedTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+Step 9: Click on button 'Checkin'
+Step 10: Click on button 'Participation'
+Step 11: Click on button 'Checkin'
+Step 12: Click on button 'Participation'
+Step 13: Click on div
+Step 14: Click on button 'Checkin'
+Step 15: Take full page screenshot as checkpoint
+",High
+23,Verify Event Creation and Management on Events Page,"Navigate to the events page and login. Create events, manage drafts, and interact with various objects. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on div
+Step 5: Click on span
+Step 6: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 7: Click on input field 'title'
+Step 8: Enter input value in input field 'title'
+Step 9: Click on button 'Save as draft' -> Navigate to page 'events/*'
+Step 10: Click on button 'Drafting'
+Step 11: Click on button 'DraftingResumeDeleteMake copy'
+Step 12: Click on button 'Delete'
+Step 13: Click on link 'Back to Home Page' -> Navigate to page 'events'
+Step 14: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 15: Click on div
+Step 16: Click on input field
+Step 17: Enter input value in input field
+Step 18: Click on span
+Step 19: Click on div
+Step 20: Enter input value in input field
+Step 21: Click on link 'Users' -> Navigate to page 'users'
+Step 22: Click on link 'Events' -> Navigate to page 'events'
+Step 23: Click on button 'My Events →'
+Step 24: Click on link '+200HostRejectedCopied of Happy Birthday in April 2024Wed, April 10 | 10:00 AMHCMC' -> Navigate to page 'events/*'
+Step 25: Click on span
+Step 26: Click on span
+Step 27: Click on div
+Step 28: Click on link 'Users' -> Navigate to page 'users'
+Step 29: Click on link 'Events' -> Navigate to page 'events'
+Step 30: Click on link '+100ApprovedCopied of true test 05Sat, April 13 | 10:00 AMaa' -> Navigate to page 'events/*'
+Step 31: Click on button 'Approved'
+Step 32: Click on div
+Step 33: Click on link 'Events'
+Step 34: Reject event and navigate to events
+	- Step 1: Click on button 'My Events →'
+	- Step 2: Click on link '+200HostRejectedCopied of Happy Birthday in April 2024Wed, April 10 | 10:00 AMHCMC' -> Navigate to page 'events/*'
+	- Step 3: Click on button 'Reject⠀'
+	- Step 4: Click on div
+	- Step 5: Click on link 'Events'
+Step 35: Take full page screenshot as checkpoint
+",High
+13,Verify Contact Points and Object Interactions on Events Page,Navigate to the events page and login. Interact with contact points and objects related to events. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300HostApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And ParticipantKMS Software' -> Navigate to page 'events/*'
+Step 4: Click on button 'Participation'
+Step 5: Click on button  -> Navigate to page 'events/*/participantsFullView'
+Step 6: Click on link  -> Navigate to page 'events'
+Step 7: Click on link '3'
+Step 8: Click on link '+300HostApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And ParticipantKMS Software' -> Navigate to page 'events/*'
+Step 9: Click on link  -> Navigate to page 'events'
+Step 10: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 11: Click on link  -> Navigate to page 'events'
+Step 12: Click on span
+Step 13: Click on div
+Step 14: Take full page screenshot as checkpoint
+",High
+22,Verify Preview and Simulator Interactions on Events Page,"Navigate to the events page and login. Preview events, interact with simulators, and navigate through different objects. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span  -> Navigate to page 'profile/*'
+Step 4: Click on div
+Step 5: Click on div
+Step 6: Click on div
+Step 7: Click on div
+Step 8: Click on iframe 'simulator'
+Step 9: Click on body
+Step 10: Click on div
+Step 11: Click on iframe 'simulator'
+Step 12: Click on body
+Step 13: Click on div
+Step 14: Click on iframe 'simulator'
+Step 15: Click on body
+Step 16: Click on div
+Step 17: Click on iframe 'simulator'
+Step 18: Click on body
+Step 19: Click on div
+Step 20: Click on iframe 'simulator'
+Step 21: Click on body
+Step 22: Click on button
+Step 23: Click on button 'Preview'
+Step 24: Click on button 'Quit Preview'
+Step 25: Click on button 'Preview'
+Step 26: Click on div
+Step 27: Click on div
+Step 28: Click on button 'Quit Preview'
+Step 29: Click on div
+Step 30: Click on div
+Step 31: Click on div
+Step 32: Click on div
+Step 33: Click on div
+Step 34: Click on div
+Step 35: Click on div
+Step 36: Click on div
+Step 37: Click on div
+Step 38: Click on div  -> Navigate to page 'events'
+Step 39: Take full page screenshot as checkpoint
+",High
+8,Verify Navigation and Object Interactions on Profile Events History,Navigate to the events page and login. Interact with objects and links related to profile events history. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on image
+Step 4: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 5: Click on link  -> Navigate to page 'profile/*'
+Step 6: Click on image
+Step 7: Click on span  -> Navigate to page 'events'
 Step 8: Take full page screenshot as checkpoint
+",High
+9,Verify Object Interactions and Data Input on Events Page,"Navigate to the events page and login. Interact with various objects, input data, and navigate through different sections. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span
+Step 4: Click on input field
+Step 5: Click on div
+Step 6: Click on button 'All'
+Step 7: Click on input field
+Step 8: Click on input field
+Step 9: Click on link '5'
+Step 10: Take full page screenshot as checkpoint
+",High
+10,Verify Data Input and Navigation to Home Page from Events,Navigate to the events page and login. Input data and navigate to the home page. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on span
+Step 5: Click on input field
+Step 6: Click on button 'All'
+Step 7: Navigate and input data
+	- Step 1: Click on div
+	- Step 2: Click on button 'All'
+	- Step 3: Click on input field
+	- Step 4: Click on input field
+	- Step 5: Click on input field
+	- Step 6: Click on input field
+Step 8: Take full page screenshot as checkpoint
+",High
+11,Verify Participation and Checkout Process on Events Page,Navigate to the events page and login. Participate in events and checkout. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300HostApprovedHappen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on button 'Participation'
+Step 5: Click on button 'Checkin'
+Step 6: Click on link 'Events' -> Navigate to page 'events'
+Step 7: Click on link '+300HostApprovedHappen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 8: Click on div
+Step 9: Click on link 'Events' -> Navigate to page 'events'
+Step 10: Take full page screenshot as checkpoint
+",High
+12,Verify Multi step Participation Process on Events Page,Navigate to the events page and login. Perform multiple participation steps and interactions. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300HostApprovedHappen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on button 'Participation'
+Step 5: Click on button 'Checkin'
+Step 6: Click on span
+Step 7: Click on div
+Step 8: Click on button 'Participation'
+Step 9: Click on button 'Checkin'
+Step 10: Click on button 'Information'
+Step 11: Click on button 'Participation'
+Step 12: Click on button 'Checkin' -> Navigate to page 'events'
+Step 13: Take full page screenshot as checkpoint
+",High
+14,Verify Event Management and Deletion on Events Page,"Navigate to the events page and login. Manage event details, publish, and delete events. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link 'Happy Day in DecemberView more →' -> Navigate to page 'events/*'
+Step 4: Click on button 'Manage Deletion'
+Step 5: Click on button 'Manage DeletionRestoreMake copy'
+Step 6: Click on button 'Publish'
+Step 7: Click on link 'Delete'
+Step 8: Click on button 'Delete'
+Step 9: Click on button 'Publish'
+Step 10: Click on div
+Step 11: Click on button 'Manage Deletion'
+Step 12: Click on button 'Manage DeletionRestoreMake copy'
+Step 13: Click on button 'Publish'
+Step 14: Click on link 'Delete'
+Step 15: Click on button 'Delete'
+Step 16: Click on button 'Manage Deletion'
+Step 17: Click on link 'Restore' -> Navigate to page 'events'
+Step 18: Take full page screenshot as checkpoint
+",High
+15,Verify Upcoming Events and Data Input on Events Page,Navigate to the events page and login. Input data for upcoming events and navigate through different sections. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on input field
+Step 5: Click on input field
+Step 6: Click on span
+Step 7: Click on input field
+Step 8: Click on input field
+Step 9: Click on button 'Upcoming'
+Step 10: Click on input field
+Step 11: Navigate and input data
+	- Step 1: Click on div
+	- Step 2: Click on button 'All'
+	- Step 3: Click on input field
+	- Step 4: Click on input field
+	- Step 5: Click on input field
+	- Step 6: Click on input field
+Step 12: Click on input field
+Step 13: Click on input field
+Step 14: Click on input field
+Step 15: Click on input field
+Step 16: Click on div
+Step 17: Take full page screenshot as checkpoint
+",High
+16,Verify Simulator Interactions and Navigation on Events Page,"Navigate to the home page and login. Interact with simulators, objects, and buttons. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com
+Step 2: Login -> Navigate to page 'profile/*'
+Step 3: Click on button 'Preview'
+Step 4: Click on button 'Quit Preview'
+Step 5: Click on button
+Step 6: Click on iframe 'simulator'
+Step 7: Click on body
+Step 8: Click on button
+Step 9: Click on iframe 'simulator'
+Step 10: Click on body
+Step 11: Click on button
+Step 12: Click on iframe 'simulator'
+Step 13: Click on body  -> Navigate to page 'events'
+Step 14: Click on button
+Step 15: Click on button 'All'
+Step 16: Click on input field
+Step 17: Take full page screenshot as checkpoint
+",High
+17,Verify Data Input and Navigation to Home Page from Events,Navigate to the events page and login. Input data and navigate to the home page. Verify the pageEvents.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on div
+Step 5: Navigate and input data
+	- Step 1: Click on button 'All'
+	- Step 2: Click on span
+	- Step 3: Click on input field
+	- Step 4: Click on span
+	- Step 5: Click on input field
+Step 6: Click on div  -> Navigate to page 'events/*'
+Step 7: Click on link
+Step 8: Navigate and input data
+	- Step 1: Click on button 'All'
+	- Step 2: Click on span
+	- Step 3: Click on input field
+	- Step 4: Click on span
+	- Step 5: Click on input field
+Step 9: Click on span
+Step 10: Click on input field
+Step 11: Click on span
+Step 12: Click on span
+Step 13: Click on input field
+Step 14: Click on div
+Step 15: Take full page screenshot as checkpoint
+",High
+18,Verify Object Interactions and Timeline View on Events Page,"Navigate to the events page and login. Interact with objects, links, and view timelines. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span
+Step 4: Click on span
+Step 5: Click on link '1'
+Step 6: Click on link '3'
+Step 7: Click on link '+100test checkinTue, April 02 | 10:00 AMHCMCClosed' -> Navigate to page 'events/*'
+Step 8: Click on link  -> Navigate to page 'events'
+Step 9: Click on link '+100Test visibilityFri, April 12 | 10:00 AMHCMC'
+Step 10: Click on link '3'
+Step 11: Click on link '+100Test visibilityFri, April 12 | 10:00 AMHCMC'
+Step 12: Click on link '+100Test visibilityFri, April 12 | 10:00 AMHCMC' -> Navigate to page 'events/*'
+Step 13: Click on button
+Step 14: Click on button 'Timeline' -> Navigate to page 'events'
+Step 15: Click on button
+Step 16: Click on section
+Step 17: Click on button 'All'
+Step 18: Click on section
+Step 19: Take full page screenshot as checkpoint
+",High
+19,Verify Registration and Event Creation on Events Page,"Navigate to the events page and login. Register for events, create events, and manage event details. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on button 'Register Now'
+Step 5: Click on button 'Cancel Registration'
+Step 6: Click on button 'Cancel'
+Step 7: Click on link  -> Navigate to page 'events'
+Step 8: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 9: Click on link  -> Navigate to page 'events'
+Step 10: Click on button 'My Events →'
+Step 11: Click on button 'All'
+Step 12: Click on label
+Step 13: Click on input field
+Step 14: Click on span
+Step 15: Click on input field
+Step 16: Click on input field
+Step 17: Click on link 'Create your own!' -> Navigate to page 'events/add'
+Step 18: Click on link  -> Navigate to page 'events'
+Step 19: Click on button 'All'
+Step 20: Click on link '2'
+Step 21: Click on link '+100HostApprovedTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+Step 22: Click on button 'Participation'
+Step 23: Click on link  -> Navigate to page 'events'
+Step 24: Take full page screenshot as checkpoint
+",High
+20,Verify Data Input and Navigation on Events Page,"Navigate to the events page and login. Input data, select options, and navigate through different sections. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span
+Step 4: Click on section
+Step 5: Navigate and input data
+	- Step 1: Click on button 'All'
+	- Step 2: Click on span
+	- Step 3: Click on input field
+	- Step 4: Click on span
+	- Step 5: Click on input field
+Step 6: Input data and select options
+	- Step 1: Click on span
+	- Step 2: Click on input field
+	- Step 3: Click on span
+	- Step 4: Click on input field
+	- Step 5: Click on span
+	- Step 6: Click on input field
+Step 7: Click on span
+Step 8: Click on input field
+Step 9: Click on div
+Step 10: Click on span
+Step 11: Click on div
+Step 12: Click on span
+Step 13: Click on input field
+Step 14: Click on span
+Step 15: Click on input field
+Step 16: Click on section
+Step 17: Navigate and input data
+	- Step 1: Click on button 'All'
+	- Step 2: Click on span
+	- Step 3: Click on input field
+	- Step 4: Click on span
+	- Step 5: Click on input field
+Step 18: Click on div
+Step 19: Navigate and input data
+	- Step 1: Click on button 'All'
+	- Step 2: Click on span
+	- Step 3: Click on input field
+	- Step 4: Click on span
+	- Step 5: Click on input field
+Step 20: Click on div
+Step 21: Take full page screenshot as checkpoint
+",High
+21,Verify Event Editing and Management on Events Page,"Navigate to the events page and login. Edit event details, manage events, and submit changes. Verify the pageEvents.","Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300HostApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And ParticipantKMS Software' -> Navigate to page 'events/*'
+Step 4: Click on button 'Participation'
+Step 5: Click on button 'Manage'
+Step 6: Click on button 'Manage' -> Navigate to page 'events/*/edit'
+Step 7: Click on div
+Step 8: Click on div
+Step 9: Click on input field 'title'
+Step 10: Enter input value in input field 'title'
+Step 11: Click on button 'Next'
+Step 12: Click on span
+Step 13: Click on button 'Submit'
+Step 14: Click on span
+Step 15: Click on button 'Submit'
+Step 16: Click on div
+Step 17: Click on span
+Step 18: Click on div
+Step 19: Click on span
+Step 20: Click on button 'Submit'
+Step 21: Click on span
+Step 22: Click on link 'ContactPoints For CheckIn And Participant' -> Navigate to page 'events/*'
+Step 23: Click on button 'Manage'
+Step 24: Click on button 'ManageEditNotifyNotify via mailMake copy' -> Navigate to page 'events/*/edit'
+Step 25: Click on span
+Step 26: Click on span
+Step 27: Click on div
+Step 28: Click on div
+Step 29: Click on span
+Step 30: Click on div
+Step 31: Click on div
+Step 32: Click on div
+Step 33: Click on span
+Step 34: Click on div
+Step 35: Click on div
+Step 36: Click on span
+Step 37: Click on button 'Submit'
+Step 38: Click on link 'Events' -> Navigate to page 'events'
+Step 39: Take full page screenshot as checkpoint
+",High
+34,Verify Event Approval and Form Submission,Navigate to the events page and login. Approve an event and access user details. Fill in forms and send data. Verify the successful submission of the form on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on span  -> Navigate to page 'profile/*/events-history'
+Step 4: Click on span
+Step 5: Click on link  -> Navigate to page 'events/*'
+Step 6: Take full page screenshot as checkpoint
+",High
+35,Verify Event Creation and Title Input,Navigate to the events page and login. Create a new event by inputting a title. Verify the successful creation of the event with the input title on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300ApprovedHappen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on button 'Approved'
+Step 5: Click on div
+Step 6: Fill form and send data
+	- Step 1: Click on input field
+	- Step 2: Click on button 'Cc'
+	- Step 3: Click on label
+	- Step 4: Click on input field
+	- Step 5: Click on button 'Send'
+Step 7: Take full page screenshot as checkpoint
+",High
+5,Verify Event Check in and Participation,Navigate to the events page and login. Access event details and participate in the event. Verify the successful participation in the event.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/
+Step 2: Login
+Step 3: Reject event and navigate to events
+	- Step 1: Click on button 'My Events →'
+	- Step 2: Click on link '+200HostRejectedCopied of Happy Birthday in April 2024Wed, April 10 | 10:00 AMHCMC' -> Navigate to page 'events/*'
+	- Step 3: Click on button 'Reject⠀'
+	- Step 4: Click on div
+	- Step 5: Click on link 'Events'
+Step 4: Take full page screenshot as checkpoint
+",High
+33,Verify Event History and Object Navigation,Navigate to the events page and login. Access event history and navigate through objects and links. Verify the successful navigation on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on link  -> Navigate to page 'events'
+Step 5: Click on button 'My Events →'
+Step 6: Click on link '+100HostApprovedTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+Step 7: Click on button 'Participation'
+Step 8: Take full page screenshot as checkpoint
+",High
+48,Verify Event Input and Object Interaction,Navigate to the events page and login. Input data and interact with objects. Verify the successful interaction with objects on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 4: Click on input field 'title'
+Step 5: Enter input value in input field 'title'
+Step 6: Click on div
+Step 7: Click on div
+Step 8: Click on button 'OK'
+Step 9: Take full page screenshot as checkpoint
+",High
+4,Verify Event Page Interaction,Navigate to the events page and login. Interact with various objects and verify the successful interaction on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Enter input value in input field
+Step 4: Click on div
+Step 5: Take full page screenshot as checkpoint
+",High
+3,Verify Successful Event Verification on Events Page,Navigate to the events page and log in. Click on a specific event date and view the timeline. Proceed to view the event details and verify the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300Happen DateSat, April 20 | 10:00 AMHappen Date' -> Navigate to page 'events/*'
+Step 4: Click on button 'Timeline'
+Step 5: Click on link  -> Navigate to page 'events'
+Step 6: Take full page screenshot as checkpoint
+",High
+47,Verify Successful Event Creation and Addition on Events Page,Navigate to the events page and log in. Create a new event from the home page and fill in the necessary information. Navigate through the event objects and verify the event addition.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →'
+Step 4: Fill form and navigate through objects
+	- Step 1: Click on input field
+	- Step 2: Click on input field 'title'
+	- Step 3: Enter input value in input field 'title'
+	- Step 4: Click on input field 'location'
+	- Step 5: Enter input value in input field 'location'
+	- Step 6: Click on button 'Next'
+	- Step 7: Click on button 'Next'
+	- Step 8: Click on p
+	- Step 9: Click on div
+	- Step 10: Click on div
+	- Step 11: Click on div
+	- Step 12: Click on div
+	- Step 13: Click on div
+	- Step 14: Click on svg
+	- Step 15: Click on span
+	- Step 16: Click on svg
+Step 5: Click on div
+Step 6: Click on div
+Step 7: Take full page screenshot as checkpoint
+",High
+2,Verify Successful Event Display on Events Page,Navigate to the events page and log in. Click on the 'All' button and interact with specific objects. Click on a particular item and verify the events page display.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on input field
+Step 5: Click on input field
+Step 6: Click on link '5'
+Step 7: Take full page screenshot as checkpoint
+",High
+46,Verify Successful Event Creation and Progression on Events Page,Navigate to the events page and log in. Create a new event and input the title. Proceed to the next steps and verify the event creation progress.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →' -> Navigate to page 'events/add'
+Step 4: Click on input field 'title'
+Step 5: Enter input value in input field 'title'
+Step 6: Click on button 'Next'
+Step 7: Click on button 'Skip'
+Step 8: Take full page screenshot as checkpoint
+",High
+32,Verify Successful Event Participation on Events Page,Navigate to the events page and log in. Access 'My Events' and select a specific event. Click on participation options and verify the event details.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on link '+100HostApprovedTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+Step 5: Click on button 'Participation'
+Step 6: Take full page screenshot as checkpoint
+",High
+31,Verify Successful Event Approval and Participation on Events Page,Navigate to the events page and log in. Click on an approved event and proceed to participation. Verify the event participation and approval.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on link '+300ApprovedContactPoints For CheckIn And ParticipantThu, April 11 | 10:00 AMContactPoints For CheckIn And Participant' -> Navigate to page 'events/*'
+Step 4: Click on button 'Participation'
+Step 5: Take full page screenshot as checkpoint
+",High
+45,Verify Successful Event Addition and Navigation on Events Page,Navigate to the events page and log in. Create a new event from the home page and navigate through the event objects. Verify the event addition process.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'Create Event →'
+Step 4: Fill form and navigate through objects
+	- Step 1: Click on input field
+	- Step 2: Click on input field 'title'
+	- Step 3: Enter input value in input field 'title'
+	- Step 4: Click on input field 'location'
+	- Step 5: Enter input value in input field 'location'
+	- Step 6: Click on button 'Next'
+	- Step 7: Click on button 'Next'
+	- Step 8: Click on p
+	- Step 9: Click on div
+	- Step 10: Click on div
+	- Step 11: Click on div
+	- Step 12: Click on div
+	- Step 13: Click on div
+	- Step 14: Click on svg
+	- Step 15: Click on span
+	- Step 16: Click on svg
+Step 5: Take full page screenshot as checkpoint
+",Medium
+1,Verify Successful Event Display on Events Page,Navigate to the events page and log in. Click on the 'All' button and interact with a specific item. Verify the display of the event on the events page.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'All'
+Step 4: Click on link '5'
+Step 5: Take full page screenshot as checkpoint
+",Low
+30,Verify Successful Event Publishing and Approval on Events Page,Navigate to the home page and log in. Access the events page and publish an event. Click on the approval link and verify the event details.,"Step 1: Navigate to https://eventify-qa.kms-technology.com
+Step 2: Login -> Navigate to page 'events/*'
+Step 3: Click on button 'Publish'
+Step 4: Click on link 'Approve'
+Step 5: Take full page screenshot as checkpoint
+",Trivial
+29,Verify Successful Event Participation and Approval on Events Page,Navigate to the events page and log in. Access 'My Events' and select an approved event. Verify the participation process and event approval.,"Step 1: Navigate to https://eventify-qa.kms-technology.com/events
+Step 2: Login
+Step 3: Click on button 'My Events →'
+Step 4: Click on link '+100HostApprovedTEST MULTIPLE HOSTWed, April 10 | 10:00 AMTản viên' -> Navigate to page 'events/*'
+Step 5: Take full page screenshot as checkpoint
 ",Trivial
