@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on span  -> Navigate to page 'profile/*'",
+        "step 4: Click on div",
+        "step 5: Click on div",
+        "step 6: Click on div",
+        "step 7: Click on div",
+        "step 8: Click on div",
+        "step 9: Click on div",
+        "step 10: Click on div",
+        "step 11: Click on div",
+        "step 12: Click on form",
+        "step 13: Click on span",
+        "step 14: Click on span"
+    ]
+}

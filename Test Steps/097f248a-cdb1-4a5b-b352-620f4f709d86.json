@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on link '+200HostApprovedtest eventy1i12Fri, May 31 | 10:00 AMhcmKMS Technology' -> Navigate to page 'events/*'",
+        "step 4: Click on button 'Manage'",
+        "step 5: Click on button 'ManageEditNotifyNotify via mailDeleteMake copy'",
+        "step 6: Click on span",
+        "step 7: Click on span",
+        "step 8: Click on div",
+        "step 9: Click on div 'rc-tabs-0-tab-1'",
+        "step 10: Click on span",
+        "step 11: Click on span",
+        "step 12: Click on div",
+        "step 13: Click on span",
+        "step 14: Click on span  -> Navigate to page ''",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}
