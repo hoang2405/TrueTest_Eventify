@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on button 'Administrative \u2192'",
+        "step 4: Click on link '2'",
+        "step 5: Click on link '3'",
+        "step 6: Click on span",
+        "step 7: Click on button 'All'",
+        "step 8: Click on span",
+        "step 9: Click on input field",
+        "step 10: Click on span",
+        "step 11: Click on input field",
+        "step 12: Click on div",
+        "step 13: Click on link '+100HostPendingFlash - Team Building June 15Sat, June 08 | 10:00 AMVinh HyKMS Software' -> Navigate to page 'events/*'",
+        "step 14: Click on button 'Publish'",
+        "step 15: Click on div",
+        "step 16: Click on image  -> Navigate to page 'events'",
+        "step 17: Click on button 'Administrative \u2192'",
+        "step 18: Click on link '+100HostPendingFlash - Team Building June 15Sat, June 08 | 10:00 AMVinh HyKMS Software' -> Navigate to page 'events/*'",
+        "step 19: Click on button 'Publish'",
+        "step 20: Click on div",
+        "step 21: Click on image  -> Navigate to page 'events'",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

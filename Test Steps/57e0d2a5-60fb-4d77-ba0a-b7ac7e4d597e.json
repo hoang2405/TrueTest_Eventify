@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on link '2'",
+        "step 4: Click on link '+400HostTEST PARTICIPANTS TABLE WITH CUSTOM FIELDSTue, May 21 | 10:00 AMhcmOther OrganizationClosed' -> Navigate to page 'events/*'",
+        "step 5: Click on button 'Participation'",
+        "step 6: Click on button  -> Navigate to page 'events/*/participantsFullView'",
+        "step 7: Click on td",
+        "step 8: Click on td"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com/events",
+        "step 2: Login",
+        "step 3: Click on button 'My Events \u2192'",
+        "step 4: Click on div",
+        "step 5: Click on button 'Create Event \u2192' -> Navigate to page 'events/*'",
+        "step 6: Click on div",
+        "step 7: Click on button 'Upload event banner'",
+        "step 8: Click on input field",
+        "step 9: Click on input field 'title'",
+        "step 10: Enter input value in input field 'title'",
+        "step 11: Click on p",
+        "step 12: Click on input field 'location'",
+        "step 13: Enter input value in input field 'location'",
+        "step 14: Click on button 'Next'",
+        "step 15: Click on input field 'numberOfParticipants'",
+        "step 16: Enter input value in input field 'numberOfParticipants'",
+        "step 17: Click on input field 'rc select 0'",
+        "step 18: Click on div",
+        "step 19: Click on input field 'rc select 3'",
+        "step 20: Click on div",
+        "step 21: Click on input field 'rc select 4'",
+        "step 22: Click on div",
+        "step 23: Click on div",
+        "step 24: Click on div",
+        "step 25: Click on div",
+        "step 26: Click on form",
+        "step 27: Click on div",
+        "step 28: Click on div"
+    ]
+}
