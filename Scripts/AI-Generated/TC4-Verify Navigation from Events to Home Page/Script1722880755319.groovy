@@ -1,8 +1,8 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.configuration.RunConfiguration
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 def reportLocation = RunConfiguration.getReportFolder()
 

@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Events Filters and Navigation on Home Page,"Navigate to the home page, login, click on events filters, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+1,Verify Navigation and Login on Home Page,"Navigate to the home page, login, click on events filter, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Click on link eventsFiltersAll -> Navigate to page ''
@@ -11,20 +11,20 @@ Step 3: Navigate to events/*
 Step 4: Click on link navigation -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",High
-2,Verify My Events and Event Participation on Home Page,"Navigate to events page, login, click on My Events, participate in an event, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+2,Verify My Events and Event Participation,"Navigate to events page, login, click on My Events, participate in an event, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on button myEvents
 Step 5: Click on link eventBannerPng300HostApprovedCopiedOf -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
 ",Medium
-3,Verify Event Participation and Approval on Home Page,"Navigate to events page, login, participate in an event, get approval, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+3,Verify Event Participation with Banner,"Navigate to events page, login, participate in an event via banner, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on link eventBannerPng300HostCheckApprovedTest -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",Medium
-5,Verify Multiple Event Actions and Participation on Home Page,"Perform multiple event actions, participate in events, add new projects, save details, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+5,Verify Detailed Event Participation,"Navigate to events page, login, participate in multiple events, add projects, save changes, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on p roleNavigationRoleParagraph
@@ -53,7 +53,7 @@ Step 26: Click on span object
 Step 27: Click on button ok -> Navigate to page ''
 Step 28: Take full page screenshot as checkpoint
 ",Medium
-6,Verify Event Participation and GWorkspace Usage on Home Page,"Navigate to events page, login, participate in events, use GWorkspace, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+6,Verify Event Participation and Gworkspace Options,"Navigate to events page, login, participate in events, use Gworkspace options, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login
 Step 3: Navigate to events/*
 Step 4: Click on link navigation -> Navigate to page '/events'
@@ -82,7 +82,7 @@ Step 26: Click on button approved
 Step 27: Click on link makeCopy -> Navigate to page ''
 Step 28: Take full page screenshot as checkpoint
 ",Medium
-7,Verify Role Menu Navigation and Profile Page Access on Home Page,"Navigate to events page, login, access role menu, profile page, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+7,Verify Event Creation and Profile Navigation,"Navigate to events page, login, create an event, navigate profiles, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on div myEventsCreateEvent
@@ -92,7 +92,7 @@ Step 7: Click on image object
 Step 8: Click on span roleMenuSpan -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",Medium
-8,Verify Event Participation and Notifications on Home Page,"Navigate to events page, login, participate in events, view notifications, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+8,Verify Event Participation with Rewards,"Navigate to events page, login, participate in events, view rewards, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on button myEvents
@@ -122,7 +122,7 @@ Step 27: Click on link events -> Navigate to page '/events'
 Step 28: Click on link eventBannerPng300HostCheckApprovedTest -> Navigate to page ''
 Step 29: Take full page screenshot as checkpoint
 ",Medium
-9,Verify Event Participation and Project Details on Home Page,"Navigate to events page, login, participate in events, add new projects, fill details, save, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+9,Verify Event Participation with Project Details,"Navigate to events page, login, participate in events, edit project details, save changes, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on button myEvents
@@ -138,7 +138,7 @@ Step 13: Click on button useGworkspace
 Step 14: Click on div menu -> Navigate to page 'events/*'
 Step 15: Click on button participation
 Step 16: Click on button flat
-Step 17: Perform multiple actions in GWorkspace
+Step 17: Navigate through various options in Gworkspace
 	- Step 1: Click on button useGworkspace
 	- Step 2: Click on div menu
 	- Step 3: Click on span host1
@@ -169,7 +169,7 @@ Step 18: Click on button cancel
 Step 19: Click on button useGworkspace
 Step 20: Click on div menu
 Step 21: Click on button roleButtonNameAddNew
-Step 22: Fill project details and save
+Step 22: Edit project details and save changes
 	- Step 1: Click on input nameIdemailProject
 	- Step 2: Enter input value in input nameIdemailProject
 	- Step 3: Click on link truongTranQuangPham3182
@@ -180,7 +180,7 @@ Step 24: Click on div menu
 Step 25: Click on button ok -> Navigate to page ''
 Step 26: Take full page screenshot as checkpoint
 ",Medium
-10,Verify Event Participation and Project Progress on Home Page,"Navigate to events page, login, participate in events, view project progress, perform actions in GWorkspace, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+10,Verify Event Participation with Privacy Test,"Navigate to events page, login, participate in events, perform privacy test, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on link eventBannerPng300HostCheckApprovedTest -> Navigate to page 'events/*'
@@ -216,7 +216,7 @@ Step 33: Click on button useGworkspace
 Step 34: Click on div roleList
 Step 35: Click on button roleButtonNameAddNew
 Step 36: Click on div roleTooltip
-Step 37: Fill project details and save
+Step 37: Edit project details and save changes
 	- Step 1: Click on input nameIdemailProject
 	- Step 2: Enter input value in input nameIdemailProject
 	- Step 3: Click on link truongTranQuangPham3182
@@ -240,7 +240,7 @@ Step 52: Click on div eventsDevGuildTraining
 Step 53: Click on html html
 Step 54: Click on button useGworkspace
 Step 55: Click on div menu
-Step 56: Perform multiple actions in GWorkspace
+Step 56: Navigate through various options in Gworkspace
 	- Step 1: Click on button useGworkspace
 	- Step 2: Click on div menu
 	- Step 3: Click on span host1
@@ -270,13 +270,13 @@ Step 56: Perform multiple actions in GWorkspace
 Step 57: Click on button cancel -> Navigate to page ''
 Step 58: Take full page screenshot as checkpoint
 ",Medium
-11,Verify Superscript Navigation on Home Page,"Navigate to events page, login, click on superscript, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+11,Verify Event Participation with Superscript,"Navigate to events page, login, participate in events using superscript, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on sup superscript -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",Medium
-12,Verify User Notifications and Navigation on Home Page,"Navigate to events page, login, view notifications, search, access user profiles, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
+12,Verify Event Participation with Search and Navigation,"Navigate to events page, login, participate in events, search, navigate through items, and verify the home page.","Step 1: Navigate to https://stglogin-homev2.kms-technology.com
 Step 2: Login -> Navigate to page '/events'
 Step 3: Navigate to /events
 Step 4: Click on div usersEventsRewards5NotificationsShowUnread
