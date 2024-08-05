@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com",
+        "step 2: Login -> Navigate to page '/events'",
+        "step 3: Navigate to /events",
+        "step 4: Click on p roleNavigationRoleParagraph",
+        "step 5: Click on button myEvents",
+        "step 6: Click on button close",
+        "step 7: Click on button myEvents",
+        "step 8: Click on link object",
+        "step 9: Click on link eventBannerPng300HostApprovedCopiedOf -> Navigate to page 'events/*'",
+        "step 10: Click on button participation -> Navigate to page '/events'",
+        "step 11: Click on link eventBannerPng300HostCheckApprovedTest -> Navigate to page 'events/*'",
+        "step 12: Click on button participation",
+        "step 13: Click on button addNew",
+        "step 14: Click on button ml5",
+        "step 15: Click on button ml5",
+        "step 16: Click on input nameIdemailProject",
+        "step 17: Enter input value in input nameIdemailProject",
+        "step 18: Click on link tbodyA",
+        "step 19: Click on button addNew",
+        "step 20: Click on button addNew",
+        "step 21: Click on input nameIdemailProject",
+        "step 22: Enter input value in input nameIdemailProject",
+        "step 23: Click on link tbodyA",
+        "step 24: Click on button save",
+        "step 25: Click on span truongTranQuangPham3182",
+        "step 26: Click on span object",
+        "step 27: Click on button ok -> Navigate to page ''",
+        "step 28: Take full page screenshot as checkpoint"
+    ]
+}

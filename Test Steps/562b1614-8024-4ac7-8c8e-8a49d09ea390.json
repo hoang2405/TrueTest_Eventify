@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com",
+        "step 2: Login -> Navigate to page '/events'",
+        "step 3: Navigate to /events",
+        "step 4: Click on button myEvents",
+        "step 5: Click on link eventBannerPng300HostApprovedCopiedOf -> Navigate to page 'events/*'",
+        "step 6: Click on button participation",
+        "step 7: Click on button flat -> Navigate to page 'events/*/participantsFullView'",
+        "step 8: Click on button useGworkspace",
+        "step 9: Click on div eventsDevGuildTraining",
+        "step 10: Click on div usersEventsRewards5Anh",
+        "step 11: Click on button useGworkspace",
+        "step 12: Click on div eventsDevGuildTraining",
+        "step 13: Click on button useGworkspace",
+        "step 14: Click on div menu",
+        "step 15: Click on div menu",
+        "step 16: Click on button useGworkspace",
+        "step 17: Click on div menu",
+        "step 18: Click on div menu",
+        "step 19: Click on div menu -> Navigate to page 'events/*'",
+        "step 20: Click on button participation",
+        "step 21: Click on button information",
+        "step 22: Click on button participation",
+        "step 23: Click on span roleSuperscript",
+        "step 24: Click on span roleSuperscript",
+        "step 25: Click on div usersEventsRewards5NotificationsShowUnread",
+        "step 26: Click on span events",
+        "step 27: Click on link events -> Navigate to page '/events'",
+        "step 28: Click on link eventBannerPng300HostCheckApprovedTest -> Navigate to page ''",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}

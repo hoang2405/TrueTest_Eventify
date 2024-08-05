@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to https://stglogin-homev2.kms-technology.com",
+        "step 2: Login -> Navigate to page '/events'",
+        "step 3: Navigate to /events",
+        "step 4: Click on button myEvents",
+        "step 5: Click on link eventBannerPng200Host",
+        "step 6: Click on button myEvents",
+        "step 7: Click on link eventBannerPng200Host",
+        "step 8: Click on link eventBannerPng300HostCheckApprovedTest -> Navigate to page 'events/*'",
+        "step 9: Click on button participation",
+        "step 10: Click on button addNew",
+        "step 11: Click on button addNew",
+        "step 12: Click on button flat -> Navigate to page 'events/*/participantsFullView'",
+        "step 13: Click on button useGworkspace",
+        "step 14: Click on div menu -> Navigate to page 'events/*'",
+        "step 15: Click on button participation",
+        "step 16: Click on button flat",
+        "step 17: Perform multiple actions in GWorkspace",
+        "step 18: Click on button cancel",
+        "step 19: Click on button useGworkspace",
+        "step 20: Click on div menu",
+        "step 21: Click on button roleButtonNameAddNew",
+        "step 22: Fill project details and save",
+        "step 23: Click on span truongTranQuangPham3182",
+        "step 24: Click on div menu",
+        "step 25: Click on button ok -> Navigate to page ''",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}
